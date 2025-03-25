@@ -1,3 +1,5 @@
-# Final Words
+# Final Words: Summer Tests the Workflow
 
 We have finished a nice book.
+
+Summer again, testing the workflow for altering a page in the template.
