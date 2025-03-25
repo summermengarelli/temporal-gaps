@@ -1,7 +1,9 @@
-# Applications
+# Keeping Data Safe
 
 Some _significant_ applications are demonstrated in this chapter.
 
 ## Example one
 
 ## Example two
+
+Very important text, here's some *more* text
