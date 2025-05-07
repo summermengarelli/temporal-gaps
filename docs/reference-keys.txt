@@ -1,3 +1,8 @@
 introduction
-testing
-super-test
+what-is-this-guide
+how-to-use-this-resource
+situating-yourself-in-the-research-lifecycle
+learning-objective
+key-terms
+the-lesson
+further-reading
