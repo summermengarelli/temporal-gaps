@@ -8,5 +8,9 @@ rmd_files: [
   "index.Rmd",
   "01-Lifecycle.Rmd",
   "02-Orienteering.Rmd",
-  "03-Organizing.Rmd"
+  "03-Organizing.Rmd",
+  "04-Annotating.Rmd",
+  "05-Writing.Rmd",
+  "06-Keeping.Rmd",
+  "07-Advocating.Rmd"
 ]

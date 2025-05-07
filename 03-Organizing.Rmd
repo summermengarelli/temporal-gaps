@@ -78,7 +78,7 @@ Other components of a file or folder name might include abbreviations or full sa
 
 Some resources to help you plan your file naming conventions are linked below, but we want to highlight our favorite, which is Kristin Briney’s [File Naming Convention Worksheet](https://doi.org/10.7907/894q-zr22). Whatever conventions you determine are appropriate for your work, document them\! This will be useful to remind yourself, and it also gives you the opportunity to pass the information on as onboarding material for future members of the lab. 
 
-### Conclusion
+## Conclusion
 
 Organizing your materials with a logical flow and using clear and consistent naming conventions is a massive first step in improving your project’s data management practices, and these recommendations should not take you more than a working session to implement. Once all your files are in working order, your next steps will be to ensure that the data within those files is standardized and documented as much as possible and that the code in your scripts is well-annotated. Along the way, you can begin to fill out READMEs for your project as a whole and for individual files or processes; these will be slotted into the file organization you established in this lesson and provide a “Start Here\!” place for future collaborators to become oriented to the project.
 

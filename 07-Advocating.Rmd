@@ -1,0 +1,83 @@
+# Advocating for CRediT
+
+*Or, how to ensure your labor is recognized and honored.*
+
+## Learning Objective
+
+Ensure your contributions are documented, advocate for yourself and others, and set boundaries
+
+## Key Terms
+
+- **CRediT:** A taxonomy for describing the different types of contributions that typically occur during a research project, from project conception through to publication.  
+- **ORCID iD:** A unique persistent identifier to disambiguate researchers and track research outputs.
+
+## Lesson
+
+The reality of being in a term-limited position as a graduate student means that you may not be affiliated with the institution or lab when the project you’re on concludes. However, that does not mean that your work was not critical for completion of the project. To that end, it is important that your contributions are appropriately recognized.
+
+This will quite obviously be tricky if you are not there to speak up– but there are practices you can start early that will not only benefit future you, but also future researchers. You can help change culture, in your lab, at your institution, and in your discipline, by ensuring your work (and the work of those that preceded you\!) is documented and citable. 
+
+### Practice 1: Make an ORCID iD
+
+One of the best – and easiest\! – ways you can start receiving recognition of your work is to make an [ORCID iD](https://orcid.org/). These are free, persistent, and unique identifiers for researchers. In the same way that a digital object identifier (DOI) always references a single output (like an article), your ORCID will always be linked to you as you progress through your career.
+
+Once you have an ORCID, you can begin entering this information when prompted, especially through publication platforms. Journals, funding agencies, and other repositories have automated connections with ORCID that will allow your name to be connected to your outputs.
+
+As you progress through your career, you can also manually update your ORCID profile page to reflect your professional achievements. This makes it easy for others to see, in one spot, all of you’ve accomplished. This is slightly different from your Google Scholar profile, as your ORCID page can capture not just your publications, but also your professional positions, committee work, and even grants received\!
+
+### Practice 2: Familiarize yourself with CRediT
+
+Another low-entry means to start advocating for recognition of your work is to review the [Contributor Role Taxonomy (CRediT)](https://credit.niso.org/). This is a widely-adopted set of 14 different types of contributions that typically occur during a research project, from project conception through to publication. 
+
+ACTION: [Review the different CRediT roles](https://groups.niso.org/higherlogic/ws/public/download/31067/CRediT_Taxonomy_Terms_and_Definitions_list), first by yourself and then with your PI, to clarify which role(s) you will be associated with.
+
+Remember:
+
+- You can have several roles.  
+- Each role can have several assignees.
+
+Document the results of this discussion in project documentation (e.g., the README file, link)
+
+### Practice 3: Conceptualize the dataset as a standalone product
+
+Often, datasets are considered the means to the end, the mechanism by which the publication is produced. This understanding is (slowly) changing, as data is becoming understood as a separate and equally important output. 
+
+(Idk what else to put here– but something about how data can be used and reused separate from the original intention.)
+
+(Needs to be adapted, but: “Poet Henry David Thoreau’s field notes were used to document that migratory bird arrivals and trees and shrubs budding is occurring earlier in the spring, further evidence of global warming (Primack and Gallinat 2016).”)
+
+### Practice 4: Advocate for those that preceded you 
+
+If you are the graduate student who is present as the project concludes, review the named contributors. If you know of anyone who worked on the project, in any of the roles articulated in CRediT, advocate for recognition of their labor.  This is a key way to help shape and change behavior that will have an impact beyond your time with the project or lab.
+
+- Not sure if important to add here, but getting at:  
+  - Pay it forward.   
+  - Academia is small– actions of kindness? idk
+
+### Practice 5: Set boundaries on your involvement
+
+As you near the end of your studies, if it is clear that the project will conclude after your departure, consider carefully how you will be involved after graduation. The practice of remaining involved with the project will differ not only by discipline, but also lead investigator and even the project itself. 
+
+Consider:
+
+- Will you continue to work on the project to see the dataset and/or publication completed? Will you present this work?  
+  - If so, is this something that will be done as part of your new role, or will this require you to volunteer your time?  
+    - If this is something you will need to do outside of your daily work, consider reviewing these flowcharts (one created for an academic, one more general) to decide if this is actually something you want to take on:  
+      - Peltzman, S. (2016). Should You Take on a Project?: A Flowchart. Zenodo. [https://doi.org/10.5281/zenodo.4694788](https://doi.org/10.5281/zenodo.4694788)  
+        - Note: this one ends with CONSIDER taking on the project. Does not mean DO take on the project\!  
+      - https://unhustle.com/a-fck-no-flowchart-say-no-without-guilt/
+
+Whatever your decision, be sure this is understood by all parties.
+
+And remember: even if you do not continue with the project, you still contributed, and you still deserve recognition.
+
+## Exercise
+
+- Elevator pitch  
+  - Write out your talking points.   
+  - Use CReDiT – what role(s) did you fill? Are there others who preceded you that should have their contributions captured?  
+  - Are you referring to the data as a standalone product?
+
+## Further Readings
+
+- A student collaborators’ bill of rights: [https://humtech.ucla.edu/news/a-student-collaborators-bill-of-rights/](https://humtech.ucla.edu/news/a-student-collaborators-bill-of-rights/) 

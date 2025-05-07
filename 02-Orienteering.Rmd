@@ -1,12 +1,12 @@
-# Getting Oriented to a dataset
+# Getting Oriented to a Dataset
 
 *Or, how to find your bearings in an existing dataset.*
 
-## Learning Objective(s)
+## Learning Objective
 
 Learn and adapt data curation strategies to become acclimated to a dataset you’ve inherited.
 
-## Key terms
+## Key Terms
 
 - **Data Curation:** The tasks by which data is reviewed to ensure it is fit for purpose.  
 - **Directory:** A folder within a computer’s file system, which might contain other folders (*subdirectories*) and/or files.  
@@ -15,7 +15,7 @@ Learn and adapt data curation strategies to become acclimated to a dataset you�
 - **Raw data:** Here, data in the state it is in when you generate/access/receive it.  
 - **ORCID iD:** A unique persistent identifier to disambiguate researchers and track research outputs.
 
-## The lesson
+## Lesson
 
 When starting or joining an existing project, or even taking previously created data to launch a new project, it is crucial to spend time acclimating to the dataset you plan to use. Spending the time now to get oriented will help avoid errors. However, approaching a dataset without a plan, especially if it is a complicated or particularly large resource, can be overwhelming. To help with that, integrate data curation strategies.
 
@@ -167,15 +167,15 @@ YYYY-MM-DD
 
 —-------------------------------------------
 
-## In conclusion
+## Conclusion
 
 As you progress in your career, remember: **You are the first curator of your data.** All actions you take shape the final outcome of a dataset and how reusable (or not) it is, both to yourself and future researchers. 
 
-## Any exercises
+## Exercises
 
 **Using the practice dataset…**
 
-## Further readings
+## Further Readings
 
 - [Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/): Created and managed by the Data Curation Network, these are resources created for data stewards when reviewing different data types.   
 - [CURATE(D) Steps](http://z.umn.edu/curate): The process by which data curators review datasets. Generalized workflow, mostly for teaching.

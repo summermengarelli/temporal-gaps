@@ -12,7 +12,7 @@ Understand the general research lifecycle and how robust data management practic
 - **Research Data Management:** The processes, tools, and techniques necessary for collecting, analysing, storing, and publishing data.   
 - **Temporal Gaps**: Periods of time between research activities.
 
-## The Lesson
+## Lesson
 
 All research projects follow a general lifecycle: from planning and design, through to implementation (which includes data collection and analysis), and concluding with concluding with output sharing (including research publishing and data depositing) and reuse, where the cycle begins again, with a new iteration of the same project or the development and launch of a new investigation.
 
@@ -28,7 +28,7 @@ In the remainder of this guide, you’ll learn more about different aspects of r
 
 \[add in a mechanism to encourage students to click the next one, like a table of contents or sentence based links to the rest of the content\]
 
-## Further reading
+## Further Reading
 
 - [Research lifecycle guide](https://researchdata.princeton.edu/research-lifecycle-guide) (Princeton)  
 - [Research Data Management Workbook](https://caltechlibrary.github.io/RDMworkbook/)  

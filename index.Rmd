@@ -1,5 +1,5 @@
 ---
-title: "The Graduate Student’s Guide to Data Curation"
+title: "Grad's Declassified Data Survival Guide"
 author: "Summer Mengarelli and Mikala Narlock"
 site: bookdown::bookdown_site
 documentclass: book
@@ -10,7 +10,7 @@ output:
 
 # Introduction
 
-## What is this guide
+## What is this guide?
 
 This guide is designed for graduate students working in a research lab who are tasked with managing research data. In this guide, you will find individual lessons on specific aspects of data management. These are geared towards **active** data management, meaning projects that are in process. These data are being updated, collected, aggregated, processed, cleaned, or analyzed on a regular basis. In other words, the focus of this material is how to integrate solid data management practices into your work without requiring a complete retooling of existing workflows and processes.
 

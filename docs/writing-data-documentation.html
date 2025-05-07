@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 6 Writing Data Documentation | Grad’s Declassified Data Survival Guide</title>
+  <meta name="description" content="Chapter 6 Writing Data Documentation | Grad’s Declassified Data Survival Guide" />
+  <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 6 Writing Data Documentation | Grad’s Declassified Data Survival Guide" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 6 Writing Data Documentation | Grad’s Declassified Data Survival Guide" />
+  
+  
+  
+
+<meta name="author" content="Summer Mengarelli and Mikala Narlock" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="annotating-code.html"/>
+<link rel="next" href="keeping-data-safe.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#what-is-this-guide"><i class="fa fa-check"></i><b>1.1</b> What is this guide?</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#how-to-use-this-resource"><i class="fa fa-check"></i><b>1.2</b> How to use this resource</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="situating-yourself-in-the-research-lifecycle.html"><a href="situating-yourself-in-the-research-lifecycle.html"><i class="fa fa-check"></i><b>2</b> Situating Yourself in the Research Lifecycle</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="situating-yourself-in-the-research-lifecycle.html"><a href="situating-yourself-in-the-research-lifecycle.html#learning-objective"><i class="fa fa-check"></i><b>2.1</b> Learning Objective</a></li>
+<li class="chapter" data-level="2.2" data-path="situating-yourself-in-the-research-lifecycle.html"><a href="situating-yourself-in-the-research-lifecycle.html#key-terms"><i class="fa fa-check"></i><b>2.2</b> Key Terms</a></li>
+<li class="chapter" data-level="2.3" data-path="situating-yourself-in-the-research-lifecycle.html"><a href="situating-yourself-in-the-research-lifecycle.html#lesson"><i class="fa fa-check"></i><b>2.3</b> Lesson</a></li>
+<li class="chapter" data-level="2.4" data-path="situating-yourself-in-the-research-lifecycle.html"><a href="situating-yourself-in-the-research-lifecycle.html#further-reading"><i class="fa fa-check"></i><b>2.4</b> Further Reading</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html"><i class="fa fa-check"></i><b>3</b> Getting Oriented to a Dataset</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#learning-objective-1"><i class="fa fa-check"></i><b>3.1</b> Learning Objective</a></li>
+<li class="chapter" data-level="3.2" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#key-terms-1"><i class="fa fa-check"></i><b>3.2</b> Key Terms</a></li>
+<li class="chapter" data-level="3.3" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#lesson-1"><i class="fa fa-check"></i><b>3.3</b> Lesson</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#practice-1-check-and-understand-the-documentation-and-dataset"><i class="fa fa-check"></i><b>3.3.1</b> Practice #1: Check and Understand the documentation and dataset</a></li>
+<li class="chapter" data-level="3.3.2" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#practice-2-request-information-and-augment-the-documentation"><i class="fa fa-check"></i><b>3.3.2</b> <strong>Practice 2: Request information and augment the documentation</strong></a></li>
+<li class="chapter" data-level="3.3.3" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#practice-3-transform-practices-and-evaluate-regularly"><i class="fa fa-check"></i><b>3.3.3</b> Practice 3: Transform practices and evaluate regularly</a></li>
+<li class="chapter" data-level="3.3.4" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#practice-4-document-your-work"><i class="fa fa-check"></i><b>3.3.4</b> Practice 4: Document your work</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#conclusion"><i class="fa fa-check"></i><b>3.4</b> Conclusion</a></li>
+<li class="chapter" data-level="3.5" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#exercises"><i class="fa fa-check"></i><b>3.5</b> Exercises</a></li>
+<li class="chapter" data-level="3.6" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#further-readings"><i class="fa fa-check"></i><b>3.6</b> Further Readings</a></li>
+<li class="chapter" data-level="3.7" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#references"><i class="fa fa-check"></i><b>3.7</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html"><i class="fa fa-check"></i><b>4</b> Navigating and Organizing Files</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#lesson-objective"><i class="fa fa-check"></i><b>4.1</b> Lesson Objective</a></li>
+<li class="chapter" data-level="4.2" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#key-terms-2"><i class="fa fa-check"></i><b>4.2</b> Key Terms</a></li>
+<li class="chapter" data-level="4.3" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#lesson-2"><i class="fa fa-check"></i><b>4.3</b> Lesson</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#the-hierarchy-of-a-computer-file-system"><i class="fa fa-check"></i><b>4.3.1</b> The hierarchy of a computer file system</a></li>
+<li class="chapter" data-level="4.3.2" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#a-recommended-approach-to-project-organization"><i class="fa fa-check"></i><b>4.3.2</b> A recommended approach to project organization</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#conclusion-1"><i class="fa fa-check"></i><b>4.4</b> Conclusion</a></li>
+<li class="chapter" data-level="4.5" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#exercises-1"><i class="fa fa-check"></i><b>4.5</b> Exercises</a></li>
+<li class="chapter" data-level="4.6" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#further-readings-1"><i class="fa fa-check"></i><b>4.6</b> Further Readings</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="annotating-code.html"><a href="annotating-code.html"><i class="fa fa-check"></i><b>5</b> Annotating Code</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="annotating-code.html"><a href="annotating-code.html#lesson-objective-1"><i class="fa fa-check"></i><b>5.1</b> Lesson Objective</a></li>
+<li class="chapter" data-level="5.2" data-path="annotating-code.html"><a href="annotating-code.html#key-terms-3"><i class="fa fa-check"></i><b>5.2</b> Key Terms</a></li>
+<li class="chapter" data-level="5.3" data-path="annotating-code.html"><a href="annotating-code.html#lesson-3"><i class="fa fa-check"></i><b>5.3</b> Lesson</a></li>
+<li class="chapter" data-level="5.4" data-path="annotating-code.html"><a href="annotating-code.html#conclusion-2"><i class="fa fa-check"></i><b>5.4</b> Conclusion</a></li>
+<li class="chapter" data-level="5.5" data-path="annotating-code.html"><a href="annotating-code.html#exercises-2"><i class="fa fa-check"></i><b>5.5</b> Exercises</a></li>
+<li class="chapter" data-level="5.6" data-path="annotating-code.html"><a href="annotating-code.html#further-readings-2"><i class="fa fa-check"></i><b>5.6</b> Further Readings</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="writing-data-documentation.html"><a href="writing-data-documentation.html"><i class="fa fa-check"></i><b>6</b> Writing Data Documentation</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="writing-data-documentation.html"><a href="writing-data-documentation.html#lesson-objective-2"><i class="fa fa-check"></i><b>6.1</b> Lesson Objective</a></li>
+<li class="chapter" data-level="6.2" data-path="writing-data-documentation.html"><a href="writing-data-documentation.html#key-terms-4"><i class="fa fa-check"></i><b>6.2</b> Key Terms</a></li>
+<li class="chapter" data-level="6.3" data-path="writing-data-documentation.html"><a href="writing-data-documentation.html#lesson-4"><i class="fa fa-check"></i><b>6.3</b> Lesson</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="writing-data-documentation.html"><a href="writing-data-documentation.html#readmes"><i class="fa fa-check"></i><b>6.3.1</b> READMEs</a></li>
+<li class="chapter" data-level="6.3.2" data-path="writing-data-documentation.html"><a href="writing-data-documentation.html#data-dictionaries"><i class="fa fa-check"></i><b>6.3.2</b> Data Dictionaries</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="writing-data-documentation.html"><a href="writing-data-documentation.html#conclusion-3"><i class="fa fa-check"></i><b>6.4</b> Conclusion</a></li>
+<li class="chapter" data-level="6.5" data-path="writing-data-documentation.html"><a href="writing-data-documentation.html#exercises-3"><i class="fa fa-check"></i><b>6.5</b> Exercises</a></li>
+<li class="chapter" data-level="6.6" data-path="writing-data-documentation.html"><a href="writing-data-documentation.html#further-readings-3"><i class="fa fa-check"></i><b>6.6</b> Further Readings</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html"><i class="fa fa-check"></i><b>7</b> Keeping Data Safe</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#lesson-objective-3"><i class="fa fa-check"></i><b>7.1</b> Lesson Objective</a></li>
+<li class="chapter" data-level="7.2" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#key-terms-5"><i class="fa fa-check"></i><b>7.2</b> Key Terms</a></li>
+<li class="chapter" data-level="7.3" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#lesson-5"><i class="fa fa-check"></i><b>7.3</b> Lesson</a>
+<ul>
+<li class="chapter" data-level="7.3.1" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-1-remember-3-2-1"><i class="fa fa-check"></i><b>7.3.1</b> Practice 1: Remember 3-2-1</a></li>
+<li class="chapter" data-level="7.3.2" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-2-only-edit-raw-data-when-necessary"><i class="fa fa-check"></i><b>7.3.2</b> Practice 2: Only edit raw data when necessary</a></li>
+<li class="chapter" data-level="7.3.3" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-3-save-data-from-key-steps"><i class="fa fa-check"></i><b>7.3.3</b> Practice 3: Save data from key steps</a></li>
+<li class="chapter" data-level="7.3.4" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-4-keep-your-guest-list-up-to-date"><i class="fa fa-check"></i><b>7.3.4</b> Practice 4: Keep your guest list up to date</a></li>
+<li class="chapter" data-level="7.3.5" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-5-ensure-continuity-in-ownership"><i class="fa fa-check"></i><b>7.3.5</b> Practice 5: Ensure continuity in ownership</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#exercises-4"><i class="fa fa-check"></i><b>7.4</b> Exercises</a></li>
+<li class="chapter" data-level="7.5" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#further-readings-4"><i class="fa fa-check"></i><b>7.5</b> Further Readings</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="advocating-for-credit.html"><a href="advocating-for-credit.html"><i class="fa fa-check"></i><b>8</b> Advocating for CRediT</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="advocating-for-credit.html"><a href="advocating-for-credit.html#learning-objective-2"><i class="fa fa-check"></i><b>8.1</b> Learning Objective</a></li>
+<li class="chapter" data-level="8.2" data-path="advocating-for-credit.html"><a href="advocating-for-credit.html#key-terms-6"><i class="fa fa-check"></i><b>8.2</b> Key Terms</a></li>
+<li class="chapter" data-level="8.3" data-path="advocating-for-credit.html"><a href="advocating-for-credit.html#lesson-6"><i class="fa fa-check"></i><b>8.3</b> Lesson</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="advocating-for-credit.html"><a href="advocating-for-credit.html#practice-1-make-an-orcid-id"><i class="fa fa-check"></i><b>8.3.1</b> Practice 1: Make an ORCID iD</a></li>
+<li class="chapter" data-level="8.3.2" data-path="advocating-for-credit.html"><a href="advocating-for-credit.html#practice-2-familiarize-yourself-with-credit"><i class="fa fa-check"></i><b>8.3.2</b> Practice 2: Familiarize yourself with CRediT</a></li>
+<li class="chapter" data-level="8.3.3" data-path="advocating-for-credit.html"><a href="advocating-for-credit.html#practice-3-conceptualize-the-dataset-as-a-standalone-product"><i class="fa fa-check"></i><b>8.3.3</b> Practice 3: Conceptualize the dataset as a standalone product</a></li>
+<li class="chapter" data-level="8.3.4" data-path="advocating-for-credit.html"><a href="advocating-for-credit.html#practice-4-advocate-for-those-that-preceded-you"><i class="fa fa-check"></i><b>8.3.4</b> Practice 4: Advocate for those that preceded you</a></li>
+<li class="chapter" data-level="8.3.5" data-path="advocating-for-credit.html"><a href="advocating-for-credit.html#practice-5-set-boundaries-on-your-involvement"><i class="fa fa-check"></i><b>8.3.5</b> Practice 5: Set boundaries on your involvement</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4" data-path="advocating-for-credit.html"><a href="advocating-for-credit.html#exercise"><i class="fa fa-check"></i><b>8.4</b> Exercise</a></li>
+<li class="chapter" data-level="8.5" data-path="advocating-for-credit.html"><a href="advocating-for-credit.html#further-readings-5"><i class="fa fa-check"></i><b>8.5</b> Further Readings</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Grad’s Declassified Data Survival Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="writing-data-documentation" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">Chapter 6</span> Writing Data Documentation<a href="writing-data-documentation.html#writing-data-documentation" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><em>Or, how and why to write READMEs and data dictionaries.</em></p>
+<div id="lesson-objective-2" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">6.1</span> Lesson Objective<a href="writing-data-documentation.html#lesson-objective-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Learn to write README-style documentation and data dictionaries for an ongoing research project.</p>
+</div>
+<div id="key-terms-4" class="section level2 hasAnchor" number="6.2">
+<h2><span class="header-section-number">6.2</span> Key Terms<a href="writing-data-documentation.html#key-terms-4" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><strong>Data Dictionary:</strong> Documentation that accompanies a dataset, listing and defining each variable and providing information on data types, conventions followed, and valid/possible values for each variable.<br />
+</li>
+<li><strong>Data Standard:</strong> An agreed-upon, technical specification for how data should be formatted.<br />
+</li>
+<li><strong>Metadata:</strong> Literally, data about data. In this case, information about a dataset, usually including its creators and funders, structure and dimensions, dates of creation and alteration, collection methodology, and reuse permissions and requirements.<br />
+</li>
+<li><strong>README:</strong> A document, typically written in Markdown or as plain text, that serves as the front page or abstract of a project’s materials – for example, the source code and data files used in a research project – and conveys information about the purpose, creation, organization, and use of the materials.<br />
+</li>
+<li><strong>Variable:</strong> Here, a column in a dataset.</li>
+</ul>
+</div>
+<div id="lesson-4" class="section level2 hasAnchor" number="6.3">
+<h2><span class="header-section-number">6.3</span> Lesson<a href="writing-data-documentation.html#lesson-4" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Imagine your supervisor emails you a zipped folder, telling you that it contains all the raw data files from the two doctoral researchers who worked on this project before you joined the lab. You download and unzip the folder, and inside find two subfolders, one named for each past student, both containing versions of the same project materials. The first student’s folder contains dozens of data files, some of which share almost identical – and identically uninformative – filenames. You open one of the files and realize that the measurements were taken with an instrument that your lab doesn’t own: this must be data shared from some other lab, but there is no information about where it came from or how it was collected.</p>
+<p>You can tell that orienting yourself to this data will take a long time, and you’re not sure you will have all the answers you need after digging through the folder’s contents. Before resigning yourself to this fate, you check the second student’s folder. You are surprised and delighted to find that the main level of this folder contains a single file, called README.txt, and several subfolders named intuitively after the datasets they contain. Each subfolder includes a data dictionary for its data files. Opening one, you find all the metadata you needed to know about the secondary data – the protocol the researchers followed, the definition of each variable and more. The main-level README lists all the contents of the subfolders, provides dates and descriptions of when and where the datasets were collected and updated, and details the software you will need to visualize the data.</p>
+<p>Which version of the data will you choose to work with? You can probably recognize immediately that the project materials that are organized with documentation will be the more efficient and more accurate way forward. This is exactly the purpose of READMEs – to introduce project materials to a new audience, or in this case, a new lab member. Relatedly, a data dictionary serves to give new users an immediate sense of the structure of a tabular dataset, without even needing to open the data file itself – which is especially helpful in cases where the data is stored in a proprietary format or would require a good deal of computing to explore.</p>
+<div id="readmes" class="section level3 hasAnchor" number="6.3.1">
+<h3><span class="header-section-number">6.3.1</span> READMEs<a href="writing-data-documentation.html#readmes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>A README is a document, typically a plain text file (.txt) or written in Markdown (.md), that provides metadata about a dataset in a standardized format. While the filename doesn’t <em>need</em> to be all capitalized, this is a cultural norm in software development, where the README serves as the front page of a program’s GitHub repository, and the norm seems to have stuck around in research data management, too. Below, we introduce the typical headings of a README and some recommendations for filling them out.</p>
+<p><strong>General Information:</strong> Begin your project-level README with some basic header information: a name for the project; name, affiliation, email address, and ORCID IDs for each collaborator; date range for the project (e.g. funding period); and any other broad information.</p>
+<p>For dataset-level README documentation, this section should include more specific information about when the data was collected, who collected it, and where (as appropriate). If the document is describing secondary data (i.e., your lab did not collect it/does not own it, but you have access to reuse it), this section should provide information about the source (e.g., government agency or organization), date of access/download, and licensing information (see <a href="https://www.dropbox.com/scl/fi/ij4u7v26s01932pfcd7hr/Template_SECONDARY_DATASET_Readme.txt?rlkey=cmz5u7e2evdb4nytlsmrrllaq&amp;e=2&amp;dl=0">MIT’s template</a> for secondary data sources for more information).</p>
+<p>———————————<br />
+TEMPLATE SNIPPET:</p>
+<p># TITLE OF PROJECT</p>
+<p>## GENERAL INFORMATION</p>
+<p>COLLABORATOR INFORMATION</p>
+<p>Name:<br />
+Role:<br />
+ORCID:<br />
+Institution:<br />
+Email:</p>
+<p>Name:<br />
+Role:<br />
+ORCID:<br />
+Institution:<br />
+Email:</p>
+<p>PROJECT FUNDING PERIOD:<br />
+FUNDING:<br />
+———————————</p>
+<p><strong>File Overview &amp; Folder Structure:</strong> In the following section, provide an overview of the organization of project materials (or, in the case of dataset-level READMEs, an overview of the file(s) that constitute the dataset). This should include a listing of each file, exactly as it is named, with a brief description of what it contains, and should note the file format (e.g., XML, TIFF, CSV, SHP, WAV, JSON). The information for each file should also include its creation date and any date(s) it was altered or updated. If appropriate, structure this section to reflect or capture the project’s folder structure – list files under the folder in which they are contained.</p>
+<p>This is also an appropriate section of the README in which to describe any file naming conventions. Since this is a README for active and internal use, you can use this as an opportunity to orient new collaborators to the organization and conventions of the project materials, thus encouraging them to follow and maintain that structure.</p>
+<p>———————————<br />
+TEMPLATE SNIPPET:</p>
+<p>## FILE OVERVIEW</p>
+<p>Directory Name:<br />
+File 1:<br />
+Description:<br />
+Format:<br />
+Creation Date:<br />
+Update Date(s):<br />
+File 2:<br />
+Description:<br />
+Format:<br />
+Creation Date:<br />
+Update Date(s):<br />
+Subdirectory Name:<br />
+File 1:<br />
+Description:<br />
+Format:<br />
+Creation Date:<br />
+Update Date(s):<br />
+…<br />
+Directory Name:<br />
+File 1:<br />
+Description:<br />
+Format:<br />
+Creation Date:<br />
+Update Date(s):<br />
+…<br />
+…</p>
+<p>FILE NAMING CONVENTIONS</p>
+<p>———————————</p>
+<p><strong>Methodology &amp; Access Information:</strong> As appropriate to your project, provide a description of the protocols used to generate/collect the data. This can also include a description of the methods used to clean/process data, as well as a list of software and dependencies needed to view/interpret/process/visualize data. Other relevant information might include requirements for conditions or calibration and quality assurance procedures. As this is an in-use version of a README, you can also use this section to provide more detailed instructions to future collaborators.</p>
+<p>———————————<br />
+TEMPLATE SNIPPET:</p>
+<p>## METHODOLOGY &amp; ACCESS INFORMATION</p>
+<p>DESCRIPTION OF COLLECTION METHODS:</p>
+<p>DESCRIPTION OF PROCESSING:</p>
+<p>INSTRUMENT- OR SOFTWARE-SPECIFIC INFORMATION:</p>
+<p>INSTRUCTIONS:</p>
+<p>———————————</p>
+<p><strong>Data Descriptions:</strong> For each dataset, provide information on its dimensions (how many rows and columns it contains), its standard for recording missing data, definitions of columns, units of measurements, abbreviations, and specialized formats or data standards. This information constitutes a dataset’s <em>data dictionary</em>, which is explained in detail below.<br />
+<strong>Change Log:</strong> While you would not include this information in a final, archival version of a README, it’s not a bad idea to include a scratchpad area at the end of your active documentation. You can use this space to keep a running log of changes you have made to the project folder structure, new outputs, or other edits. This might also include more onboarding information for future collaborators, like an “here’s where I left off” note, or notes to yourself about information that you still need to fully orient yourself to the project materials.</p>
+<p>———————————<br />
+TEMPLATE SNIPPET:</p>
+<p>## CHANGE LOG</p>
+<p>CHANGES:</p>
+<p>SCRATCHPAD:</p>
+<p>———————————</p>
+</div>
+<div id="data-dictionaries" class="section level3 hasAnchor" number="6.3.2">
+<h3><span class="header-section-number">6.3.2</span> Data Dictionaries<a href="writing-data-documentation.html#data-dictionaries" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Whereas you can think of a README as a project-level form of documentation, data dictionaries serve the same purpose at the dataset level for tabular data. Strictly speaking, the dictionary only defines a dataset’s structure, conventions, and standards: how many columns (or <em>variables</em>), the data type of each column (for example, an integer or boolean), acceptable values (e.g., “Yes” but not “yes” or “Y”), and standards (date formatting, geographic abbreviations). This information can easily be conveyed in a table. It may be more useful, though, to think of these dataset-level documents as mini-READMEs that <em>contain</em> data dictionaries (another term for this is a <em>codebook)</em>. Before the table describing the contents of the dataset, you can include some of the same information that’s in the project-level README, like dates of creation and modification, people involved, and collection protocols, specific to the dataset you’re describing.</p>
+<p>Ideally, you will accompany each tabular dataset in your project with a data dictionary. Even more ideal would be to follow a standard template for every data dictionary, so that you know exactly where to look to determine, for example, when each dataset was created. These dictionaries can also be copied into the project-level README so that information is available at both levels. For the README-like metadata at the beginning of each data dictionary, we suggest including the following headers, described above: General Information, Methodology, and Edit Log. Below we detail how to create the dictionary itself, formatted as a table, although it is also common and reasonable to write a dictionary as a plain text document.</p>
+<p><strong>Dimensions:</strong> Above your data dictionary table, include a simple annotation of the number of observations (rows) and variables (columns), formatted as # rows x # columns. For example, for a dataset with 350,000 rows and 16 variables, this section will look like this:</p>
+<p>Dimensions: 350000 x 16</p>
+<p>(Or, you can describe this in more detail, but stick to the same format for every dataset.)</p>
+<p><strong>Missing Values:</strong> Also above the data dictionary table, include an indication of how missing data is captured in this dataset. For example, does the data include “NA”s, “Null”s, empty cells, dummy values, or some other symbol or phrase? Are multiple methods used to indicate missing data? Indicate this here.</p>
+<p><strong>Variable:</strong> The first column in your data dictionary table should list the name of every variable in the dataset, spelled and capitalized <em>exactly</em> how they appear in the dataset. This is crucial for a reader to be able to quickly map the information in the data dictionary to the dataset it’s describing. For the dataset we describe in the “Dimensions” section above, this dictionary should have 16 rows, one for each of the 16 variables.</p>
+<p><strong>Variable Name:</strong> The next column should provide a human-readable version of each variable name, as needed. For example, if the real variable name in the dataset is “wght,” this column could say “weight,” clarifying what the variable name means. You can think of this column as showing how each variable name would be styled in the labels of a graph or figure.</p>
+<p><strong>Units:</strong> The third column in your data dictionary should simply record the unit of measurement for each variable. For example, if the variable contains weight, this column will clarify if the weight is measured in grams, pounds, or something else (for plenty of columns, like text columns, this will be N/A).</p>
+<p><strong>Data Type:</strong> This column should record what <em>kind</em> of data is contained in each column. Some possible options might include numeric or integer, character or text, float or decimal, boolean (0/1, Y/N), or date data types.</p>
+<p>NOTE: This assumes all the data in a given column is formatted uniformly. Although this is ideal, in real research, this is often not the case. For example, participants in a survey might give their age as “26” or “twenty-six,” resulting in a “age” variable that looks like both an integer and a text data type. If this is data you inherited, you may or may not have the opportunity or ability to standardize the data; for now, use the Data Type column in your data dictionary to record all the data types present in a given column of the data.</p>
+<p><strong>Values:</strong> The next column should note the acceptable values, or range of values, for each variable. For numeric or date data, this should include the minimum and maximum values included in the column, so you might need to perform some quick exploratory data analysis on the data to get this information (this might be as simple as sorting the data in a spreadsheet software – but be sure to sort the <em>entire</em> spreadsheet, not only one column!).</p>
+<p>For boolean values, you might use this column to be explicit about what the values mean, if you know it: is 0 a stand-in for “no,” “absent,” or something else? If the column is a text data type and contains only a finite number of possible values, they should be listed or described here. Examples of this might include a “state” column, where the values could be noted here as “2-letter abbreviations of the 50 U.S. states,” or a “life stage” column that only contains the values listed here: “Juvenile, Immature, Adult”.</p>
+<p><strong>Standard:</strong> This column lists any data standards used in the described variable. A data standard is an agreed-upon specification for how data should be formatted – by agreed-upon, we mean that some organizing body, like the Library of Congress, has established the standard, or that it is a commonly accepted convention within your discipline. In many cases this looks like a <em>controlled vocabulary</em> of acceptable values. For example, the Getty Research Institute Vocabularies provide standardized stylings to record or describe geographic names and cultural objects. A standard could also specify how data should be formatted, like the <a href="https://www.iso.org/iso-8601-date-and-time-format.html">International Organization for Standardization (ISO) 8601</a> date and time standard, which specifies that date should be formatted uniformly as YYYY-MM-DD.</p>
+<p>As in the value of data types, it is outside of your control whether data you inherited was formatted following data standards, and it may very well be outside of your control whether it can be transformed to align with the conventions of your discipline – although, it is worth having a conversation about with your supervisor! Regardless, if you know that a variable in the dataset you’re describing follows a data standard, you can record that information here.</p>
+<p><strong>Description:</strong> The final column of your data dictionary can provide a simple, plain-language description of the described variable. This might look something like “weight in grams” or “participant’s date of birth”.</p>
+</div>
+</div>
+<div id="conclusion-3" class="section level2 hasAnchor" number="6.4">
+<h2><span class="header-section-number">6.4</span> Conclusion<a href="writing-data-documentation.html#conclusion-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>READMEs and data dictionaries are typically associated with the end of a project, acting as “what’s inside” guides to accompany data that is ready to be archived or deposited in a repository. So, why bother to do this while you’re still working on the project?</p>
+<p>One major benefit to drafting a README early in the project is that a single, short document that keeps track of materials helps you stay organized in the complex and evolving ecosystem of in-progress research. Having one source of truth means that you only need to open one file to find materials you need or quickly answer collaborators’ questions about what a variable name means, when a data file was created, or what a folder contains. Along those same lines, maintaining documentation throughout the project timeline means that nothing is left up to institutional memory, whereas waiting until the end of the project risks omitted details.</p>
+<p>Another major reason to start data documentation now is that you may not be here when the project concludes and the data is ready to be archived or shared. It is very common for graduate students to join a project after it has started and graduate before it has ended. If this is the case for you, you will not have the opportunity to ensure that the data is archived with accurate and up-to-date documentation, but you <em>do</em> have the opportunity, right now, to ensure that when your work is shared with new collaborators, they have all the information they need. Writing a README now is your chance to write the TL;DR1 of your efforts and contributions to the work, and well-formatted data documentation helps ensure that these best practices continue when you have moved on.</p>
+<p>1 Too Long; Didn’t Read.</p>
+</div>
+<div id="exercises-3" class="section level2 hasAnchor" number="6.5">
+<h2><span class="header-section-number">6.5</span> Exercises<a href="writing-data-documentation.html#exercises-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Provide an empty spreadsheet for a data dictionary and have them fill it out for 1 of the tabular datasets</li>
+</ul>
+</div>
+<div id="further-readings-3" class="section level2 hasAnchor" number="6.6">
+<h2><span class="header-section-number">6.6</span> Further Readings<a href="writing-data-documentation.html#further-readings-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><a href="https://data.research.cornell.edu/data-management/sharing/readme/">https://data.research.cornell.edu/data-management/sharing/readme/</a><br />
+</li>
+<li><a href="https://georgiasouthern.libguides.com/c.php?g=833713&amp;p=5953142">https://georgiasouthern.libguides.com/c.php?g=833713&amp;p=5953142</a><br />
+</li>
+<li><a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a><br />
+</li>
+<li><a href="https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files">https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files</a><br />
+</li>
+<li>MIT template for README for secondary data: <a href="https://www.dropbox.com/scl/fi/ij4u7v26s01932pfcd7hr/Template_SECONDARY_DATASET_Readme.txt?rlkey=cmz5u7e2evdb4nytlsmrrllaq&amp;e=1&amp;dl=0">https://www.dropbox.com/scl/fi/ij4u7v26s01932pfcd7hr/Template_SECONDARY_DATASET_Readme.txt?rlkey=cmz5u7e2evdb4nytlsmrrllaq&amp;e=1&amp;dl=0</a><br />
+</li>
+<li>Harvard RDM LibGuide on data dictionaries: <a href="https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/data-dictionary">https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/data-dictionary</a><br />
+</li>
+<li>Briney workbook Create a Data Dictionary exercise: <a href="https://caltechlibrary.github.io/RDMworkbook/documentation.html#data-dictionary">https://caltechlibrary.github.io/RDMworkbook/documentation.html#data-dictionary</a><br />
+</li>
+<li>ICPSR’s “What is a Codebook?”: <a href="https://www.icpsr.umich.edu/web/ICPSR/cms/1983">https://www.icpsr.umich.edu/web/ICPSR/cms/1983</a><br />
+</li>
+<li>OSF page How to Make a Data Dictionary: <a href="https://help.osf.io/article/217-how-to-make-a-data-dictionary">https://help.osf.io/article/217-how-to-make-a-data-dictionary</a><br />
+</li>
+<li><a href="http://Data.gov">Data.gov</a> page on data standards: <a href="https://resources.data.gov/standards/concepts/">https://resources.data.gov/standards/concepts/</a></li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="annotating-code.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="keeping-data-safe.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
