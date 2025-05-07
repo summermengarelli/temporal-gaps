@@ -1,0 +1,187 @@
+# Getting Oriented to a dataset
+
+*Or, how to find your bearings in an existing dataset.*
+
+## Learning Objective(s)
+
+Learn and adapt data curation strategies to become acclimated to a dataset you’ve inherited.
+
+## Key terms
+
+- **Data Curation:** The tasks by which data is reviewed to ensure it is fit for purpose.  
+- **Directory:** A folder within a computer’s file system, which might contain other folders (*subdirectories*) and/or files.  
+- **README:** A document, typically written in Markdown or as plain text, that serves as the front page or abstract of a project’s materials – for example, the source code and data files used in a research project – and conveys information about the purpose, creation, organization, and use of the materials.   
+- **Data Dictionary:** Documentation that accompanies a dataset, listing and defining each variable and providing information on data types, conventions followed, and valid/possible values for each variable.  
+- **Raw data:** Here, data in the state it is in when you generate/access/receive it.  
+- **ORCID iD:** A unique persistent identifier to disambiguate researchers and track research outputs.
+
+## The lesson
+
+When starting or joining an existing project, or even taking previously created data to launch a new project, it is crucial to spend time acclimating to the dataset you plan to use. Spending the time now to get oriented will help avoid errors. However, approaching a dataset without a plan, especially if it is a complicated or particularly large resource, can be overwhelming. To help with that, integrate data curation strategies.
+
+Data curation, or the tasks by which data is reviewed to ensure it is fit for purpose, provides a structured method to engage with data. In general, data curation tasks include:
+
+- Creating a comprehensive listing of files in the dataset.  
+  - If a listing already exists, making sure all files are present.  
+- Reviewing the documentation to ensure variables are defined, methodology is present and clear, and descriptive information is thorough.  
+- If applicable, running code to ensure it works as expected, dependencies are named, and code has clear annotation (link to Annotating Code).
+
+This process often occurs at the end of a research project, when outputs are being published in repositories. However, these practices can be adopted and adapted for finding your way through a new and unfamiliar dataset, since data curation strategies offer standardized yet flexible approaches to understanding a dataset. Below, we offer a general framework, divided into practices.[^1] This process can be used for all data types, across all disciplines.
+
+### Practice \#1: Check and Understand the documentation and dataset 
+
+First and foremost, get access to the data and documentation. This may seem like a no brainer, but sometimes data can be distributed in multiple locations. Make sure you have access to all of the data and affiliated documentation. Ask your PI, peers, and others in the lab about data and affiliated documentation to make sure you have access to everything. This may require getting access to servers, added to shared drives or networked storage, or even being shown where the physical records are kept. You may even need to follow hyperlinks that lead to other storage folders– that is ok\! This process may take time. Do not rush this step though, as all future steps build from it.
+
+After that, begin by reviewing the documentation. Look for READMEs, dictionaries, or other overview documentation that will help you learn more about the methodology, expected data files, and the project overall. If this is an ongoing project which has been written about before, and you have not already, consider reading any previous publications or reviewing any publicly available datasets.
+
+ACTION: As you review the documentation, start your own review log. This is for your use, and your use only– so don’t be afraid to add to it, remove from it, whatever you need to do to get your thoughts together. Use it as a way to annotate your journey through the documentation, which you’ll expand on.
+
+—-------------------------------------------  
+TEMPLATE SNIPPET:
+
+- Documentation reviewed  
+  - Dictionary  
+    - Important points  
+    - Questions  
+  - README  
+    - Important points  
+    - Questions  
+  - Article(s)  
+    - Important points  
+    - Questions  
+  - …
+
+—-------------------------------------------
+
+Now, repeat the process with the actual data files. As much as possible, **avoid making copies of the data**, as that will lead to file proliferation. In general, you want to create as few derivatives of key files as reasonably possible to avoid confusion as to which file is the correct version– especially when you are collaborating in a lab. That being said, you will need to take care reviewing the raw data files**,** or the source data collected from instruments or observation from which other data or visualizations will be derived, when possible. Especially as you are getting your bearings in the data, it can be easy to accidentally alter or even delete data, occasionally in an irreversible way. 
+
+If you feel you absolutely **must** make copies of the data, store the files in a working directory on your local machine (if possible given the size of the data) and remove the files as soon as you have completed your review.
+
+ACTION: Here, document what you’ve reviewed and questions you may have. Pay close attention to the folders that you have reviewed so you do not accidentally revisit data– but don’t be afraid to circle back to documentation or other parts of the data as you are forming connections to the different materials\! 
+
+—-------------------------------------------  
+TEMPLATE SNIPPET:
+
+- Data reviewed  
+  - \[Directory 1\]  
+    - Important points  
+    - Questions  
+  - \[Directory 2\]  
+    - Important points  
+    - Questions  
+  - \[Directory 3\]  
+    - Important points  
+    - Questions  
+  - …
+
+—-------------------------------------------
+
+###  **Practice 2: Request information and augment the documentation**
+
+After you have explored the data and documentation, pause to synthesize for yourself: what have you learned? What questions do you still have?
+
+ACTION: At this point, divide your questions into three categories: Critical, Important, and Nice to know. 
+
+- Critical: These questions **must** be answered before you feel comfortable proceeding with your role. While this will depend on your position and research, some examples of critical questions include:  
+  - Undefined or unclear variables  
+  - Missing units of measurement  
+  - Undefined or unclear relationships between different files  
+- Important: These questions need to be answered soon, but are not an impediment to your role. Some examples of important questions include:  
+  - Data versioning process and how to document changes to the data  
+  - Unclear data analysis processes, such as via scripts  
+  - Quality assurance or review process for data collection   
+  - Data storage and backup mechanisms  
+- Nice to know: These questions will provide useful information at a future stage of the research project. Consider asking them at regular meetings with your PI or peers. Some examples of nice to know questions include:  
+  - Who has access to the data currently  
+  - The long-term plan for sharing or destroying the data
+
+At this stage, also consider **who** needs to answer each question. 
+
+All of this is leading to an important rule of thumb: in order to get the answers you need, ask no more than 4 questions at once– especially via email– of one person (Hudson Vitale et al, 2024). This will help ensure you get the answers you need to be successful.  
+   
+Once you have the critical questions answered, consider if there are changes you can make **to the documentation** in isolation. For example, if you have learned what a snippet of code does, which is currently not annotated, can you add that in? Can you draft a README? In contrast, you likely cannot change how data are being collected or analyzed. 
+
+Note: There may be no changes you are comfortable making on your own– that is ok\! You can also ask a colleague or your PI to review the proposed changes before you make them.
+
+ACTION: Using what you’ve learned, augment the dataset documentation. If you are not comfortable updating the project-level documentation, at the minimum update your personal documentation.
+
+### Practice 3: Transform practices and evaluate regularly
+
+As you transition from learning about the dataset to contributing to it, remain cognizant of the workflows and documentation. Consider, in particular, the questions you initially had when looking through the data. Are there ways you could consistently improve the practices of the lab to make it easier for future students?
+
+Revisit this question on a periodic basis, such as quarterly. 
+
+ACTION: Over time, especially as you feel more secure in the project or lab, consider suggesting changes to the data management process. This could include things like, adjusting the file naming convention, implementing a more robust version management tool, or even just improving the documentation. This may not be something you can do right away– but it is never too late to integrate small changes to have a big impact on the research data. 
+
+ACTION: Add a quarterly meeting to your calendar, or even your project team’s calendar, to review your processes and consider what can be improved. 
+
+—-------------------------------------------  
+TEMPLATE SNIPPET:
+
+- Data Management Practices Quarterly Review Meeting  (Team wide)  
+  - Did anyone leave the lab that needs to be removed from the project (in other words, are there any accounts that need to be removed to ensure no one outside of the project has access)  
+  - Are there any files that need to be deleted   
+  - Has our documentation been updated recently   
+  - Can we confirm our backup system is running as expected  
+  - Do our files all follow the file-naming convention  
+  - During the last three months, have we made any changes to our collection process?  
+    - If yes, have they been documented?  
+  - During the last three months, have there been any challenges to the data collection or management process?  
+    - If yes, can we mitigate these by changing our workflow?  
+- Data Management Practices Quarterly Review (self)  
+  - Do I have any duplicate or extraneous files on my local machine that need to be deleted  
+  - Is my local documentation up to date? Has this/can it be added to the team documentation?  
+  - Is my code documented 
+
+—-------------------------------------------
+
+### Practice 4: Document your work
+
+During your conversations, when you make data management decisions, or change processes, be sure to capture everything. Even in situations where no changes are made, document why and if the topic should be revisited at a future date. Combining the snippets from above, and repeated as necessary, you have your Data Management Log\! 
+
+Some good practices for your documentation:
+
+- Create a header for your documentation  
+  - Created by: (Name, ORCiD)  
+  - Role in lab/project:  
+  - Date range covered: (Start Date-End date)  
+- Add dates to each entry  
+- Add entries in reverse chronological order (more recent info goes at the top)  
+- Be specific. Do not assume you will remember an abbreviation in six months. 
+
+ACTION: Review your documentation alongside your data management practices, approximately quarterly. Documentation can be easy to fall behind on, but staying on top of it now will make future efforts (such as writing the methodology of you paper) easier.
+
+—-------------------------------------------  
+DATA MANAGEMENT LOG TEMPLATE
+
+Created by: (Name, ORCiD)  
+Role in lab/project:  
+Date range covered: (Start Date-End date)
+
+YYYY-MM-DD
+
+- Changes made to data files (generally)  
+- Documentation updated  
+- Code created, edit  
+- ….
+
+—-------------------------------------------
+
+## In conclusion
+
+As you progress in your career, remember: **You are the first curator of your data.** All actions you take shape the final outcome of a dataset and how reusable (or not) it is, both to yourself and future researchers. 
+
+## Any exercises
+
+**Using the practice dataset…**
+
+## Further readings
+
+- [Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/): Created and managed by the Data Curation Network, these are resources created for data stewards when reviewing different data types.   
+- [CURATE(D) Steps](http://z.umn.edu/curate): The process by which data curators review datasets. Generalized workflow, mostly for teaching.
+
+## References
+
+Hudson Vitale, Cynthia; Hadley, Hannah; Wham, Briana; Borda, Susan; Carlson, Jake; Darragh, Jennifer; Fearon, David; Herndon, Joel; Hunt, Shanda; Johnston, Lisa R.; Kalt, Marley; Kozlowski, Wendy; Lafferty-Hess, Sophia; Marsolek, Wanda; Moore, Jennifer; Narlock, Mikala; Scott, Dorris; Wheeler, Jon; Woodbrook, Rachel; Wright, Sarah; Yee, Michelle; Lake, Sherry. (2024). CURATE(D) Fundamentals Workshop. Retrieved from the University Digital Conservancy, [https://doi.org/10.24926/2024.265916](https://doi.org/10.24926/2024.265916). 
+
+[^1]:  These have been adapted from the Data Curation Network’s CURATE(D) Steps.

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 Getting Oriented to a dataset | The Graduate Student’s Guide to Data Curation</title>
+  <meta name="description" content="Chapter 3 Getting Oriented to a dataset | The Graduate Student’s Guide to Data Curation" />
+  <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 Getting Oriented to a dataset | The Graduate Student’s Guide to Data Curation" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 Getting Oriented to a dataset | The Graduate Student’s Guide to Data Curation" />
+  
+  
+  
+
+<meta name="author" content="Summer Mengarelli and Mikala Narlock" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="situating-yourself-in-the-research-lifecycle.html"/>
+<link rel="next" href="navigating-and-organizing-files.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#what-is-this-guide"><i class="fa fa-check"></i><b>1.1</b> What is this guide</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#how-to-use-this-resource"><i class="fa fa-check"></i><b>1.2</b> How to use this resource</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="situating-yourself-in-the-research-lifecycle.html"><a href="situating-yourself-in-the-research-lifecycle.html"><i class="fa fa-check"></i><b>2</b> Situating Yourself in the Research Lifecycle</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="situating-yourself-in-the-research-lifecycle.html"><a href="situating-yourself-in-the-research-lifecycle.html#learning-objective"><i class="fa fa-check"></i><b>2.1</b> Learning Objective</a></li>
+<li class="chapter" data-level="2.2" data-path="situating-yourself-in-the-research-lifecycle.html"><a href="situating-yourself-in-the-research-lifecycle.html#key-terms"><i class="fa fa-check"></i><b>2.2</b> Key Terms</a></li>
+<li class="chapter" data-level="2.3" data-path="situating-yourself-in-the-research-lifecycle.html"><a href="situating-yourself-in-the-research-lifecycle.html#the-lesson"><i class="fa fa-check"></i><b>2.3</b> The Lesson</a></li>
+<li class="chapter" data-level="2.4" data-path="situating-yourself-in-the-research-lifecycle.html"><a href="situating-yourself-in-the-research-lifecycle.html#further-reading"><i class="fa fa-check"></i><b>2.4</b> Further reading</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html"><i class="fa fa-check"></i><b>3</b> Getting Oriented to a dataset</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#learning-objectives"><i class="fa fa-check"></i><b>3.1</b> Learning Objective(s)</a></li>
+<li class="chapter" data-level="3.2" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#key-terms-1"><i class="fa fa-check"></i><b>3.2</b> Key terms</a></li>
+<li class="chapter" data-level="3.3" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#the-lesson-1"><i class="fa fa-check"></i><b>3.3</b> The lesson</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#practice-1-check-and-understand-the-documentation-and-dataset"><i class="fa fa-check"></i><b>3.3.1</b> Practice #1: Check and Understand the documentation and dataset</a></li>
+<li class="chapter" data-level="3.3.2" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#practice-2-request-information-and-augment-the-documentation"><i class="fa fa-check"></i><b>3.3.2</b> <strong>Practice 2: Request information and augment the documentation</strong></a></li>
+<li class="chapter" data-level="3.3.3" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#practice-3-transform-practices-and-evaluate-regularly"><i class="fa fa-check"></i><b>3.3.3</b> Practice 3: Transform practices and evaluate regularly</a></li>
+<li class="chapter" data-level="3.3.4" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#practice-4-document-your-work"><i class="fa fa-check"></i><b>3.3.4</b> Practice 4: Document your work</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#in-conclusion"><i class="fa fa-check"></i><b>3.4</b> In conclusion</a></li>
+<li class="chapter" data-level="3.5" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#any-exercises"><i class="fa fa-check"></i><b>3.5</b> Any exercises</a></li>
+<li class="chapter" data-level="3.6" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#further-readings"><i class="fa fa-check"></i><b>3.6</b> Further readings</a></li>
+<li class="chapter" data-level="3.7" data-path="getting-oriented-to-a-dataset.html"><a href="getting-oriented-to-a-dataset.html#references"><i class="fa fa-check"></i><b>3.7</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html"><i class="fa fa-check"></i><b>4</b> Navigating and Organizing Files</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#lesson-objective"><i class="fa fa-check"></i><b>4.1</b> Lesson Objective</a></li>
+<li class="chapter" data-level="4.2" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#key-terms-2"><i class="fa fa-check"></i><b>4.2</b> Key Terms</a></li>
+<li class="chapter" data-level="4.3" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#lesson"><i class="fa fa-check"></i><b>4.3</b> Lesson</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#the-hierarchy-of-a-computer-file-system"><i class="fa fa-check"></i><b>4.3.1</b> The hierarchy of a computer file system</a></li>
+<li class="chapter" data-level="4.3.2" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#a-recommended-approach-to-project-organization"><i class="fa fa-check"></i><b>4.3.2</b> A recommended approach to project organization</a></li>
+<li class="chapter" data-level="4.3.3" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#conclusion"><i class="fa fa-check"></i><b>4.3.3</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#exercises"><i class="fa fa-check"></i><b>4.4</b> Exercises</a></li>
+<li class="chapter" data-level="4.5" data-path="navigating-and-organizing-files.html"><a href="navigating-and-organizing-files.html#further-readings-1"><i class="fa fa-check"></i><b>4.5</b> Further Readings</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">The Graduate Student’s Guide to Data Curation</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="getting-oriented-to-a-dataset" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Getting Oriented to a dataset<a href="getting-oriented-to-a-dataset.html#getting-oriented-to-a-dataset" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><em>Or, how to find your bearings in an existing dataset.</em></p>
+<div id="learning-objectives" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Learning Objective(s)<a href="getting-oriented-to-a-dataset.html#learning-objectives" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Learn and adapt data curation strategies to become acclimated to a dataset you’ve inherited.</p>
+</div>
+<div id="key-terms-1" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Key terms<a href="getting-oriented-to-a-dataset.html#key-terms-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><strong>Data Curation:</strong> The tasks by which data is reviewed to ensure it is fit for purpose.<br />
+</li>
+<li><strong>Directory:</strong> A folder within a computer’s file system, which might contain other folders (<em>subdirectories</em>) and/or files.<br />
+</li>
+<li><strong>README:</strong> A document, typically written in Markdown or as plain text, that serves as the front page or abstract of a project’s materials – for example, the source code and data files used in a research project – and conveys information about the purpose, creation, organization, and use of the materials.<br />
+</li>
+<li><strong>Data Dictionary:</strong> Documentation that accompanies a dataset, listing and defining each variable and providing information on data types, conventions followed, and valid/possible values for each variable.<br />
+</li>
+<li><strong>Raw data:</strong> Here, data in the state it is in when you generate/access/receive it.<br />
+</li>
+<li><strong>ORCID iD:</strong> A unique persistent identifier to disambiguate researchers and track research outputs.</li>
+</ul>
+</div>
+<div id="the-lesson-1" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> The lesson<a href="getting-oriented-to-a-dataset.html#the-lesson-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>When starting or joining an existing project, or even taking previously created data to launch a new project, it is crucial to spend time acclimating to the dataset you plan to use. Spending the time now to get oriented will help avoid errors. However, approaching a dataset without a plan, especially if it is a complicated or particularly large resource, can be overwhelming. To help with that, integrate data curation strategies.</p>
+<p>Data curation, or the tasks by which data is reviewed to ensure it is fit for purpose, provides a structured method to engage with data. In general, data curation tasks include:</p>
+<ul>
+<li>Creating a comprehensive listing of files in the dataset.
+<ul>
+<li>If a listing already exists, making sure all files are present.<br />
+</li>
+</ul></li>
+<li>Reviewing the documentation to ensure variables are defined, methodology is present and clear, and descriptive information is thorough.<br />
+</li>
+<li>If applicable, running code to ensure it works as expected, dependencies are named, and code has clear annotation (link to Annotating Code).</li>
+</ul>
+<p>This process often occurs at the end of a research project, when outputs are being published in repositories. However, these practices can be adopted and adapted for finding your way through a new and unfamiliar dataset, since data curation strategies offer standardized yet flexible approaches to understanding a dataset. Below, we offer a general framework, divided into practices.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> This process can be used for all data types, across all disciplines.</p>
+<div id="practice-1-check-and-understand-the-documentation-and-dataset" class="section level3 hasAnchor" number="3.3.1">
+<h3><span class="header-section-number">3.3.1</span> Practice #1: Check and Understand the documentation and dataset<a href="getting-oriented-to-a-dataset.html#practice-1-check-and-understand-the-documentation-and-dataset" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>First and foremost, get access to the data and documentation. This may seem like a no brainer, but sometimes data can be distributed in multiple locations. Make sure you have access to all of the data and affiliated documentation. Ask your PI, peers, and others in the lab about data and affiliated documentation to make sure you have access to everything. This may require getting access to servers, added to shared drives or networked storage, or even being shown where the physical records are kept. You may even need to follow hyperlinks that lead to other storage folders– that is ok! This process may take time. Do not rush this step though, as all future steps build from it.</p>
+<p>After that, begin by reviewing the documentation. Look for READMEs, dictionaries, or other overview documentation that will help you learn more about the methodology, expected data files, and the project overall. If this is an ongoing project which has been written about before, and you have not already, consider reading any previous publications or reviewing any publicly available datasets.</p>
+<p>ACTION: As you review the documentation, start your own review log. This is for your use, and your use only– so don’t be afraid to add to it, remove from it, whatever you need to do to get your thoughts together. Use it as a way to annotate your journey through the documentation, which you’ll expand on.</p>
+<p>———————————————-<br />
+TEMPLATE SNIPPET:</p>
+<ul>
+<li>Documentation reviewed
+<ul>
+<li>Dictionary
+<ul>
+<li>Important points<br />
+</li>
+<li>Questions<br />
+</li>
+</ul></li>
+<li>README
+<ul>
+<li>Important points<br />
+</li>
+<li>Questions<br />
+</li>
+</ul></li>
+<li>Article(s)
+<ul>
+<li>Important points<br />
+</li>
+<li>Questions<br />
+</li>
+</ul></li>
+<li>…</li>
+</ul></li>
+</ul>
+<p>———————————————-</p>
+<p>Now, repeat the process with the actual data files. As much as possible, <strong>avoid making copies of the data</strong>, as that will lead to file proliferation. In general, you want to create as few derivatives of key files as reasonably possible to avoid confusion as to which file is the correct version– especially when you are collaborating in a lab. That being said, you will need to take care reviewing the raw data files<strong>,</strong> or the source data collected from instruments or observation from which other data or visualizations will be derived, when possible. Especially as you are getting your bearings in the data, it can be easy to accidentally alter or even delete data, occasionally in an irreversible way.</p>
+<p>If you feel you absolutely <strong>must</strong> make copies of the data, store the files in a working directory on your local machine (if possible given the size of the data) and remove the files as soon as you have completed your review.</p>
+<p>ACTION: Here, document what you’ve reviewed and questions you may have. Pay close attention to the folders that you have reviewed so you do not accidentally revisit data– but don’t be afraid to circle back to documentation or other parts of the data as you are forming connections to the different materials!</p>
+<p>———————————————-<br />
+TEMPLATE SNIPPET:</p>
+<ul>
+<li>Data reviewed
+<ul>
+<li><span class="math display">\[Directory 1\]</span>
+<ul>
+<li>Important points<br />
+</li>
+<li>Questions<br />
+</li>
+</ul></li>
+<li><span class="math display">\[Directory 2\]</span>
+<ul>
+<li>Important points<br />
+</li>
+<li>Questions<br />
+</li>
+</ul></li>
+<li><span class="math display">\[Directory 3\]</span>
+<ul>
+<li>Important points<br />
+</li>
+<li>Questions<br />
+</li>
+</ul></li>
+<li>…</li>
+</ul></li>
+</ul>
+<p>———————————————-</p>
+</div>
+<div id="practice-2-request-information-and-augment-the-documentation" class="section level3 hasAnchor" number="3.3.2">
+<h3><span class="header-section-number">3.3.2</span> <strong>Practice 2: Request information and augment the documentation</strong><a href="getting-oriented-to-a-dataset.html#practice-2-request-information-and-augment-the-documentation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>After you have explored the data and documentation, pause to synthesize for yourself: what have you learned? What questions do you still have?</p>
+<p>ACTION: At this point, divide your questions into three categories: Critical, Important, and Nice to know.</p>
+<ul>
+<li>Critical: These questions <strong>must</strong> be answered before you feel comfortable proceeding with your role. While this will depend on your position and research, some examples of critical questions include:
+<ul>
+<li>Undefined or unclear variables<br />
+</li>
+<li>Missing units of measurement<br />
+</li>
+<li>Undefined or unclear relationships between different files<br />
+</li>
+</ul></li>
+<li>Important: These questions need to be answered soon, but are not an impediment to your role. Some examples of important questions include:
+<ul>
+<li>Data versioning process and how to document changes to the data<br />
+</li>
+<li>Unclear data analysis processes, such as via scripts<br />
+</li>
+<li>Quality assurance or review process for data collection<br />
+</li>
+<li>Data storage and backup mechanisms<br />
+</li>
+</ul></li>
+<li>Nice to know: These questions will provide useful information at a future stage of the research project. Consider asking them at regular meetings with your PI or peers. Some examples of nice to know questions include:
+<ul>
+<li>Who has access to the data currently<br />
+</li>
+<li>The long-term plan for sharing or destroying the data</li>
+</ul></li>
+</ul>
+<p>At this stage, also consider <strong>who</strong> needs to answer each question.</p>
+<p>All of this is leading to an important rule of thumb: in order to get the answers you need, ask no more than 4 questions at once– especially via email– of one person (Hudson Vitale et al, 2024). This will help ensure you get the answers you need to be successful.</p>
+<p>Once you have the critical questions answered, consider if there are changes you can make <strong>to the documentation</strong> in isolation. For example, if you have learned what a snippet of code does, which is currently not annotated, can you add that in? Can you draft a README? In contrast, you likely cannot change how data are being collected or analyzed.</p>
+<p>Note: There may be no changes you are comfortable making on your own– that is ok! You can also ask a colleague or your PI to review the proposed changes before you make them.</p>
+<p>ACTION: Using what you’ve learned, augment the dataset documentation. If you are not comfortable updating the project-level documentation, at the minimum update your personal documentation.</p>
+</div>
+<div id="practice-3-transform-practices-and-evaluate-regularly" class="section level3 hasAnchor" number="3.3.3">
+<h3><span class="header-section-number">3.3.3</span> Practice 3: Transform practices and evaluate regularly<a href="getting-oriented-to-a-dataset.html#practice-3-transform-practices-and-evaluate-regularly" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>As you transition from learning about the dataset to contributing to it, remain cognizant of the workflows and documentation. Consider, in particular, the questions you initially had when looking through the data. Are there ways you could consistently improve the practices of the lab to make it easier for future students?</p>
+<p>Revisit this question on a periodic basis, such as quarterly.</p>
+<p>ACTION: Over time, especially as you feel more secure in the project or lab, consider suggesting changes to the data management process. This could include things like, adjusting the file naming convention, implementing a more robust version management tool, or even just improving the documentation. This may not be something you can do right away– but it is never too late to integrate small changes to have a big impact on the research data.</p>
+<p>ACTION: Add a quarterly meeting to your calendar, or even your project team’s calendar, to review your processes and consider what can be improved.</p>
+<p>———————————————-<br />
+TEMPLATE SNIPPET:</p>
+<ul>
+<li>Data Management Practices Quarterly Review Meeting (Team wide)
+<ul>
+<li>Did anyone leave the lab that needs to be removed from the project (in other words, are there any accounts that need to be removed to ensure no one outside of the project has access)<br />
+</li>
+<li>Are there any files that need to be deleted<br />
+</li>
+<li>Has our documentation been updated recently<br />
+</li>
+<li>Can we confirm our backup system is running as expected<br />
+</li>
+<li>Do our files all follow the file-naming convention<br />
+</li>
+<li>During the last three months, have we made any changes to our collection process?
+<ul>
+<li>If yes, have they been documented?<br />
+</li>
+</ul></li>
+<li>During the last three months, have there been any challenges to the data collection or management process?
+<ul>
+<li>If yes, can we mitigate these by changing our workflow?<br />
+</li>
+</ul></li>
+</ul></li>
+<li>Data Management Practices Quarterly Review (self)
+<ul>
+<li>Do I have any duplicate or extraneous files on my local machine that need to be deleted<br />
+</li>
+<li>Is my local documentation up to date? Has this/can it be added to the team documentation?<br />
+</li>
+<li>Is my code documented</li>
+</ul></li>
+</ul>
+<p>———————————————-</p>
+</div>
+<div id="practice-4-document-your-work" class="section level3 hasAnchor" number="3.3.4">
+<h3><span class="header-section-number">3.3.4</span> Practice 4: Document your work<a href="getting-oriented-to-a-dataset.html#practice-4-document-your-work" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>During your conversations, when you make data management decisions, or change processes, be sure to capture everything. Even in situations where no changes are made, document why and if the topic should be revisited at a future date. Combining the snippets from above, and repeated as necessary, you have your Data Management Log!</p>
+<p>Some good practices for your documentation:</p>
+<ul>
+<li>Create a header for your documentation
+<ul>
+<li>Created by: (Name, ORCiD)<br />
+</li>
+<li>Role in lab/project:<br />
+</li>
+<li>Date range covered: (Start Date-End date)<br />
+</li>
+</ul></li>
+<li>Add dates to each entry<br />
+</li>
+<li>Add entries in reverse chronological order (more recent info goes at the top)<br />
+</li>
+<li>Be specific. Do not assume you will remember an abbreviation in six months.</li>
+</ul>
+<p>ACTION: Review your documentation alongside your data management practices, approximately quarterly. Documentation can be easy to fall behind on, but staying on top of it now will make future efforts (such as writing the methodology of you paper) easier.</p>
+<p>———————————————-<br />
+DATA MANAGEMENT LOG TEMPLATE</p>
+<p>Created by: (Name, ORCiD)<br />
+Role in lab/project:<br />
+Date range covered: (Start Date-End date)</p>
+<p>YYYY-MM-DD</p>
+<ul>
+<li>Changes made to data files (generally)<br />
+</li>
+<li>Documentation updated<br />
+</li>
+<li>Code created, edit<br />
+</li>
+<li>….</li>
+</ul>
+<p>———————————————-</p>
+</div>
+</div>
+<div id="in-conclusion" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> In conclusion<a href="getting-oriented-to-a-dataset.html#in-conclusion" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>As you progress in your career, remember: <strong>You are the first curator of your data.</strong> All actions you take shape the final outcome of a dataset and how reusable (or not) it is, both to yourself and future researchers.</p>
+</div>
+<div id="any-exercises" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> Any exercises<a href="getting-oriented-to-a-dataset.html#any-exercises" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Using the practice dataset…</strong></p>
+</div>
+<div id="further-readings" class="section level2 hasAnchor" number="3.6">
+<h2><span class="header-section-number">3.6</span> Further readings<a href="getting-oriented-to-a-dataset.html#further-readings" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><a href="https://datacurationnetwork.org/outputs/data-curation-primers/">Data Curation Primers</a>: Created and managed by the Data Curation Network, these are resources created for data stewards when reviewing different data types.<br />
+</li>
+<li><a href="http://z.umn.edu/curate">CURATE(D) Steps</a>: The process by which data curators review datasets. Generalized workflow, mostly for teaching.</li>
+</ul>
+</div>
+<div id="references" class="section level2 hasAnchor" number="3.7">
+<h2><span class="header-section-number">3.7</span> References<a href="getting-oriented-to-a-dataset.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Hudson Vitale, Cynthia; Hadley, Hannah; Wham, Briana; Borda, Susan; Carlson, Jake; Darragh, Jennifer; Fearon, David; Herndon, Joel; Hunt, Shanda; Johnston, Lisa R.; Kalt, Marley; Kozlowski, Wendy; Lafferty-Hess, Sophia; Marsolek, Wanda; Moore, Jennifer; Narlock, Mikala; Scott, Dorris; Wheeler, Jon; Woodbrook, Rachel; Wright, Sarah; Yee, Michelle; Lake, Sherry. (2024). CURATE(D) Fundamentals Workshop. Retrieved from the University Digital Conservancy, <a href="https://doi.org/10.24926/2024.265916">https://doi.org/10.24926/2024.265916</a>.</p>
+
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>These have been adapted from the Data Curation Network’s CURATE(D) Steps.<a href="getting-oriented-to-a-dataset.html#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="situating-yourself-in-the-research-lifecycle.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="navigating-and-organizing-files.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
