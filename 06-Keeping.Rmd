@@ -8,29 +8,29 @@
 
 ## Lesson
 
-We have all been there before: you go to review your article, and your most recent save didn’t take– or worst case, the document is completely gone. Or, you saved your important presentation to a flash drive– and now you’ve lost that flash drive. Now imagine this is your research data, and you can’t access the recent and time-bound data you painstakingly captured. Not only is this frustrating and a setback to the project, it can also feel embarrassing, especially in a team setting. To avoid this, practice robust data security and preservation standards.
+We have all been there before: you go to review your manuscript draft, and your most recent save didn’t take–or worst case, the document is completely gone. Or, you saved your important presentation to a flash drive, and now you’ve lost that flash drive. Now imagine this is your research data, and you can’t access the recent and time-bound data you painstakingly captured. Not only is this frustrating and a setback to the project, it can also feel embarrassing, especially in a team setting. To avoid this, practice robust data security and preservation standards.
 
 If you’re entering a project, there are (or should be) structures in place to ensure that data are backed up regularly, version controls to prevent accidental editing, and processes to document your data collection workflows. If there are not, this is a good chance to start the conversation\!
 
-To the extent you have control over the project data– or at least your data within the project – there are a few rules of thumb you can adopt to help prevent data loss.
+To the extent you have control over the project data–or at least your data within the project–there are a few rules of thumb you can adopt to help prevent data loss.
 
 ### Practice 1: Remember 3-2-1
 
-This best practice suggests that, to avoid data loss or corruption, you should save 3 copies of important files in 2 locations with 1 copy stored remotely (e.g., a cloud storage system, such as Google Drive). This can be challenging, especially when working on a team that is actively updating data files. But don’t be daunted\! A relatively straightforward way to implement this is to ensure that you have periodic (e.g., weekly, monthly) backups in place. These can be implemented in an automatic fashion so you don’t have to worry about it. If you are concerned, you can connect with your institution’s IT – they can provide more details on your current storage mechanism or provide advice on how to streamline this process. Regardless of the means you use to implement backups, it is important these are documented and understood so you always know where the authoritative version of the working files is.
+This best practice suggests that, to avoid data loss or corruption, you should save 3 copies of important files in 2 locations with 1 copy stored remotely (e.g., a cloud storage system, such as Google Drive). This can be challenging, especially when working on a team that is actively updating data files. But don’t be daunted\! A relatively straightforward way to implement this is to ensure that you have periodic (e.g., weekly, monthly) backups in place. These can be implemented in an automatic fashion so you don’t have to worry about it. If you are concerned, you can connect with your institution’s IT–they can provide more details on your current storage mechanism or provide advice on how to streamline this process. Regardless of the means you use to implement backups, it is important these are documented and understood so you always know where the authoritative version of the working files lives.
 
 ### Practice 2: Only edit raw data when necessary
 
 When you are capturing data, you are creating ‘raw’ data. By definition, then, you’ll be editing the raw data.
 
-But, after the data collection phase, consider carefully when, if at all, you need to be using the raw and original data. Sometimes data cannot be recreated– take, for example, a weather condition on a certain day a week ago. You will never be able to get that data back– so if you accidentally delete something, you’ve just irrevocably altered your data (gasp).
+But, after the data collection phase, consider carefully when, if at all, you need to be using the raw and original data. Sometimes data cannot be recreated–take, for example, a weather condition on a certain day a week ago. You will never be able to get that data back, so if you accidentally delete something, you’ve just irrevocably altered your data (gasp).
 
-So, when you are conducting analyses, running scripts, using R to mutate, using excel formulas, etc, make a derivative (copy) of the data for analysis.
+So, when you are conducting analyses, running scripts, using R to mutate, using Excel formulas, etc, make a derivative (copy) of the data for analysis.
 
 ### Practice 3: Save data from key steps
 
 As your project progresses, and you create derivatives to run analyses, be sure to keep data files from key steps of your research without keeping every file. 
 
-- You need to keep the key steps – but don’t let digital clutter drown out your work
+- You need to keep the key steps, but don’t let digital clutter drown out your work
 
 ### Practice 4: Keep your guest list up to date
 
