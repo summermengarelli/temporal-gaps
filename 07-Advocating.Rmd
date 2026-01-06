@@ -62,10 +62,9 @@ Consider:
 
 - Will you continue to work on the project to see the dataset and/or publication completed? Will you present this work?  
   - If so, is this something that will be done as part of your new role, or will this require you to volunteer your time?  
-    - If this is something you will need to do outside of your daily work, consider reviewing these flowcharts (one created for an academic, one more general) to decide if this is actually something you want to take on:  
+    - If this is something you will need to do outside of your daily work, consider reviewing this flowchart to decide if this is actually something you want to take on:  
       - Peltzman, S. (2016). Should You Take on a Project?: A Flowchart. Zenodo. [https://doi.org/10.5281/zenodo.4694788](https://doi.org/10.5281/zenodo.4694788)  
-        - Note: this one ends with CONSIDER taking on the project. Does not mean DO take on the project\!  
-      - https://unhustle.com/a-fck-no-flowchart-say-no-without-guilt/
+        - Note: This ends by suggesting you CONSIDER taking on the project. That does not mean *DO* take on the project\!  
 
 Whatever your decision, be sure this is understood by all parties.
 
@@ -80,4 +79,5 @@ And remember: even if you do not continue with the project, you still contribute
 
 ## Further Readings
 
+[Under construction]
 - A student collaborators’ bill of rights: [https://humtech.ucla.edu/news/a-student-collaborators-bill-of-rights/](https://humtech.ucla.edu/news/a-student-collaborators-bill-of-rights/) 
