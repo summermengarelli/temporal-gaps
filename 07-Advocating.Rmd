@@ -4,18 +4,18 @@
 
 ## Learning Objective
 
-Ensure your contributions are documented, advocate for yourself and others, and set boundaries
+Ensure your contributions are documented, advocate for yourself and others, and set boundaries.
 
 ## Key Terms
 
-- **CRediT:** A taxonomy for describing the different types of contributions that typically occur during a research project, from project conception through to publication.  
+- **CRediT:** A taxonomy for describing the different types of contributions that typically occur during a research project, from project conception to publication.  
 - **ORCID iD:** A unique persistent identifier to disambiguate researchers and track research outputs.
 
 ## Lesson
 
 The reality of being in a term-limited position as a graduate student means that you may not be affiliated with the institution or lab when the project you’re on concludes. However, that does not mean that your work was not critical for completion of the project. To that end, it is important that your contributions are appropriately recognized.
 
-This will quite obviously be tricky if you are not there to speak up– but there are practices you can start early that will not only benefit future you, but also future researchers. You can help change culture, in your lab, at your institution, and in your discipline, by ensuring your work (and the work of those that preceded you\!) is documented and citable. 
+This will quite obviously be tricky if you are not there to speak up– but there are practices you can start early that will benefit not only future you, but also future researchers. You can help change culture, in your lab, at your institution, and in your discipline, by ensuring your work (and the work of those who preceded you\!) is documented and citable. 
 
 ### Practice 1: Make an ORCID iD
 
@@ -23,7 +23,7 @@ One of the best – and easiest\! – ways you can start receiving recognition o
 
 Once you have an ORCID, you can begin entering this information when prompted, especially through publication platforms. Journals, funding agencies, and other repositories have automated connections with ORCID that will allow your name to be connected to your outputs.
 
-As you progress through your career, you can also manually update your ORCID profile page to reflect your professional achievements. This makes it easy for others to see, in one spot, all of you’ve accomplished. This is slightly different from your Google Scholar profile, as your ORCID page can capture not just your publications, but also your professional positions, committee work, and even grants received\!
+As you progress through your career, you can also manually update your ORCID profile page to reflect your professional achievements. This makes it easy for others to see, in one spot, all that you’ve accomplished. This is slightly different from your Google Scholar profile, as your ORCID page can capture not just your publications, but also your professional positions, committee work, and even grants received\!
 
 ### Practice 2: Familiarize yourself with CRediT
 
@@ -36,7 +36,7 @@ Remember:
 - You can have several roles.  
 - Each role can have several assignees.
 
-Document the results of this discussion in project documentation (e.g., the README file, link)
+Document the results of this discussion in project documentation (e.g., the [README file](05-Writing.Rmd)).
 
 ### Practice 3: Conceptualize the dataset as a standalone product
 
@@ -46,7 +46,7 @@ Often, datasets are considered the means to the end, the mechanism by which the 
 
 (Needs to be adapted, but: “Poet Henry David Thoreau’s field notes were used to document that migratory bird arrivals and trees and shrubs budding is occurring earlier in the spring, further evidence of global warming (Primack and Gallinat 2016).”)
 
-### Practice 4: Advocate for those that preceded you 
+### Practice 4: Advocate for those who preceded you 
 
 If you are the graduate student who is present as the project concludes, review the named contributors. If you know of anyone who worked on the project, in any of the roles articulated in CRediT, advocate for recognition of their labor.  This is a key way to help shape and change behavior that will have an impact beyond your time with the project or lab.
 
