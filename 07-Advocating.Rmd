@@ -36,7 +36,7 @@ Remember:
 - You can have several roles.  
 - Each role can have several assignees.
 
-Document the results of this discussion in project documentation (e.g., the [README file](05-Writing.Rmd)).
+Document the results of this discussion in project documentation (e.g., the [README file](https://summermengarelli.github.io/temporal-gaps/writing-data-documentation.html)).
 
 ### Practice 3: Conceptualize the dataset as a standalone product
 

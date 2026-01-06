@@ -61,7 +61,7 @@ lesson-6
 practice-1-make-an-orcid-id
 practice-2-familiarize-yourself-with-credit
 practice-3-conceptualize-the-dataset-as-a-standalone-product
-practice-4-advocate-for-those-that-preceded-you
+practice-4-advocate-for-those-who-preceded-you
 practice-5-set-boundaries-on-your-involvement
 exercise
 further-readings-5
