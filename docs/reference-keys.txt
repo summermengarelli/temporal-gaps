@@ -47,11 +47,11 @@ keeping-data-safe
 lesson-objective-3
 key-terms-5
 lesson-5
-practice-1-remember-3-2-1
-practice-2-only-edit-raw-data-when-necessary
-practice-3-save-data-from-key-steps
-practice-4-keep-your-guest-list-up-to-date
-practice-5-ensure-continuity-in-ownership
+practice-1-use-group-storage
+practice-2-remember-3-2-1
+practice-3-only-edit-raw-data-when-necessary
+practice-4-save-data-from-key-steps
+practice-5-keep-your-guest-list-up-to-date
 exercises-4
 further-readings-4
 advocating-for-credit

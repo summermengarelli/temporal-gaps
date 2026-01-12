@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 7 Keeping Data Safe | Grad’s Declassified Data Survival Guide</title>
   <meta name="description" content="Chapter 7 Keeping Data Safe | Grad’s Declassified Data Survival Guide" />
-  <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 7 Keeping Data Safe | Grad’s Declassified Data Survival Guide" />
   <meta property="og:type" content="book" />
@@ -140,11 +140,11 @@
 <li class="chapter" data-level="7.2" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#key-terms-5"><i class="fa fa-check"></i><b>7.2</b> Key Terms</a></li>
 <li class="chapter" data-level="7.3" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#lesson-5"><i class="fa fa-check"></i><b>7.3</b> Lesson</a>
 <ul>
-<li class="chapter" data-level="7.3.1" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-1-remember-3-2-1"><i class="fa fa-check"></i><b>7.3.1</b> Practice 1: Remember 3-2-1</a></li>
-<li class="chapter" data-level="7.3.2" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-2-only-edit-raw-data-when-necessary"><i class="fa fa-check"></i><b>7.3.2</b> Practice 2: Only edit raw data when necessary</a></li>
-<li class="chapter" data-level="7.3.3" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-3-save-data-from-key-steps"><i class="fa fa-check"></i><b>7.3.3</b> Practice 3: Save data from key steps</a></li>
-<li class="chapter" data-level="7.3.4" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-4-keep-your-guest-list-up-to-date"><i class="fa fa-check"></i><b>7.3.4</b> Practice 4: Keep your guest list up to date</a></li>
-<li class="chapter" data-level="7.3.5" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-5-ensure-continuity-in-ownership"><i class="fa fa-check"></i><b>7.3.5</b> Practice 5: Ensure continuity in ownership</a></li>
+<li class="chapter" data-level="7.3.1" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-1-use-group-storage"><i class="fa fa-check"></i><b>7.3.1</b> Practice 1: Use group storage</a></li>
+<li class="chapter" data-level="7.3.2" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-2-remember-3-2-1"><i class="fa fa-check"></i><b>7.3.2</b> Practice 2: Remember 3-2-1</a></li>
+<li class="chapter" data-level="7.3.3" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-3-only-edit-raw-data-when-necessary"><i class="fa fa-check"></i><b>7.3.3</b> Practice 3: Only edit raw data when necessary</a></li>
+<li class="chapter" data-level="7.3.4" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-4-save-data-from-key-steps"><i class="fa fa-check"></i><b>7.3.4</b> Practice 4: Save data from key steps</a></li>
+<li class="chapter" data-level="7.3.5" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#practice-5-keep-your-guest-list-up-to-date"><i class="fa fa-check"></i><b>7.3.5</b> Practice 5: Keep your guest list up to date</a></li>
 </ul></li>
 <li class="chapter" data-level="7.4" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#exercises-4"><i class="fa fa-check"></i><b>7.4</b> Exercises</a></li>
 <li class="chapter" data-level="7.5" data-path="keeping-data-safe.html"><a href="keeping-data-safe.html#further-readings-4"><i class="fa fa-check"></i><b>7.5</b> Further Readings</a></li>
@@ -186,47 +186,43 @@
 <p><em>Or, how to ensure your data isn’t altered or removed accidentally or intentionally.</em></p>
 <div id="lesson-objective-3" class="section level2 hasAnchor" number="7.1">
 <h2><span class="header-section-number">7.1</span> Lesson Objective<a href="keeping-data-safe.html#lesson-objective-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Understand and, when possible, implement safeguards to prevent unauthorized or accidental data modification.</p>
+<p>An important caveat: sensitive data (including that derived from human participants, about sensitive species or locations, or otherwise protected information) necessitates additional data safety and security measures that will not be covered in this guide.</p>
 </div>
 <div id="key-terms-5" class="section level2 hasAnchor" number="7.2">
 <h2><span class="header-section-number">7.2</span> Key Terms<a href="keeping-data-safe.html#key-terms-5" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><strong>Cloud-based Storage:</strong> A system that lets you save, access, and share your research files securely over the internet from any device, rather than storing them solely on your local computer or external drive. Google Drive and Box are two examples of cloud-based storage– but these storage providers still have physical locations and servers.</li>
+<li><strong>On-premises Storage:</strong> A system where your research files are saved on physical servers and hardware maintained locally by your institution, accessible only through your campus network or VPN rather than directly over the internet.</li>
+<li><strong>Authoritative Version:</strong> The official copy of a file or dataset that serves as the definitive reference point for your research, ensuring everyone works from the same version.</li>
+</ul>
 </div>
 <div id="lesson-5" class="section level2 hasAnchor" number="7.3">
 <h2><span class="header-section-number">7.3</span> Lesson<a href="keeping-data-safe.html#lesson-5" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>We have all been there before: you go to review your manuscript draft, and your most recent save didn’t take–or worst case, the document is completely gone. Or, you saved your important presentation to a flash drive, and now you’ve lost that flash drive. Now imagine this is your research data, and you can’t access the recent and time-bound data you painstakingly captured. Not only is this frustrating and a setback to the project, it can also feel embarrassing, especially in a team setting. To avoid this, practice robust data security and preservation standards.</p>
-<p>If you’re entering a project, there are (or should be) structures in place to ensure that data are backed up regularly, version controls to prevent accidental editing, and processes to document your data collection workflows. If there are not, this is a good chance to start the conversation!</p>
+<p>If you are entering a lab, you may not have much control over the approach to data storage and backup. But that doesn’t mean you shouldn’t know about it! If you’re entering a project, there are (or should be) structures in place to ensure that data are backed up regularly, version controls to prevent accidental editing, and processes to document your data collection workflows. If there are not, this is a good chance to start the conversation if that is something you feel comfortable with.</p>
 <p>To the extent you have control over the project data–or at least your data within the project–there are a few rules of thumb you can adopt to help prevent data loss.</p>
-<div id="practice-1-remember-3-2-1" class="section level3 hasAnchor" number="7.3.1">
-<h3><span class="header-section-number">7.3.1</span> Practice 1: Remember 3-2-1<a href="keeping-data-safe.html#practice-1-remember-3-2-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>This best practice suggests that, to avoid data loss or corruption, you should save 3 copies of important files in 2 locations with 1 copy stored remotely (e.g., a cloud storage system, such as Google Drive). This can be challenging, especially when working on a team that is actively updating data files. But don’t be daunted! A relatively straightforward way to implement this is to ensure that you have periodic (e.g., weekly, monthly) backups in place. These can be implemented in an automatic fashion so you don’t have to worry about it. If you are concerned, you can connect with your institution’s IT–they can provide more details on your current storage mechanism or provide advice on how to streamline this process. Regardless of the means you use to implement backups, it is important these are documented and understood so you always know where the authoritative version of the working files lives.</p>
+<div id="practice-1-use-group-storage" class="section level3 hasAnchor" number="7.3.1">
+<h3><span class="header-section-number">7.3.1</span> Practice 1: Use group storage<a href="keeping-data-safe.html#practice-1-use-group-storage" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Each research lab, center, department, etc. will have access to different types of storage, which will depend on your institution. It’s common for there to be institutional support for cloud-based storage. All storage solutions have options for group accounts – meaning multiple users will have access to the storage. In Google, this looks like a Shared Google Drive (NOT a shared Folder); in Microsoft, this is storage managed through a Teams Shared Drive. While the exact terminology may vary, it is imperative that you contribute your data to the shared or group storage instead of your personal Drive, OneDrive, or computer storage. In particular, when you leave the institution, this will ensure your data remain managed by the lab, center, department, etc.</p>
 </div>
-<div id="practice-2-only-edit-raw-data-when-necessary" class="section level3 hasAnchor" number="7.3.2">
-<h3><span class="header-section-number">7.3.2</span> Practice 2: Only edit raw data when necessary<a href="keeping-data-safe.html#practice-2-only-edit-raw-data-when-necessary" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>When you are capturing data, you are creating ‘raw’ data. By definition, then, you’ll be editing the raw data.</p>
-<p>But, after the data collection phase, consider carefully when, if at all, you need to be using the raw and original data. Sometimes data cannot be recreated–take, for example, a weather condition on a certain day a week ago. You will never be able to get that data back, so if you accidentally delete something, you’ve just irrevocably altered your data (gasp).</p>
-<p>So, when you are conducting analyses, running scripts, using R to mutate, using Excel formulas, etc, make a derivative (copy) of the data for analysis.</p>
+<div id="practice-2-remember-3-2-1" class="section level3 hasAnchor" number="7.3.2">
+<h3><span class="header-section-number">7.3.2</span> Practice 2: Remember 3-2-1<a href="keeping-data-safe.html#practice-2-remember-3-2-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>This best practice suggests that, to avoid data loss or corruption, you should save 3 copies of important files in 2 locations with 1 copy stored remotely (e.g., a cloud storage system, such as Google Drive). This can be challenging, especially when working on a team that is actively updating data files. But don’t be daunted! A relatively straightforward way to implement this is to ensure that you have periodic (e.g., weekly, monthly) backups in place. These can be implemented in an automatic fashion so you don’t have to worry about it.</p>
+<p>Regardless of the means you use to implement backups, it is important these are documented and understood so you always know where the authoritative version of the working files lives. This can be accomplished through a <a href="https://summermengarelli.github.io/temporal-gaps/navigating-and-organizing-files.html#a-recommended-approach-to-project-organization">robust folder organization and file naming system</a>. Getting into the habit of adding the current date to the beginning of file names can both help you sort files and help you keep track of the most recent and working version, the raw copies, etc.</p>
 </div>
-<div id="practice-3-save-data-from-key-steps" class="section level3 hasAnchor" number="7.3.3">
-<h3><span class="header-section-number">7.3.3</span> Practice 3: Save data from key steps<a href="keeping-data-safe.html#practice-3-save-data-from-key-steps" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>As your project progresses, and you create derivatives to run analyses, be sure to keep data files from key steps of your research without keeping every file.</p>
-<ul>
-<li>You need to keep the key steps, but don’t let digital clutter drown out your work</li>
-</ul>
+<div id="practice-3-only-edit-raw-data-when-necessary" class="section level3 hasAnchor" number="7.3.3">
+<h3><span class="header-section-number">7.3.3</span> Practice 3: Only edit raw data when necessary<a href="keeping-data-safe.html#practice-3-only-edit-raw-data-when-necessary" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>After the data collection phase, consider carefully when, if at all, you need to be using the raw and original data (i.e., that which you created or received). Sometimes data cannot be recreated: a weather condition on a certain day a week ago; voter perceptions before an election; health data from a wearable device immediately after a major surgery. You will never be able to get that data back–so if you accidentally delete something or change a value, you could have just irrevocably altered your data.</p>
+<p>So, when you are conducting analyses, running scripts, using R to mutate, using Excel formulas, etc, make a derivative (copy) of the data for analysis. As with above, though, be sure that you understand and have clearly labeled (such as through file names) which version(s) of the files you are working with.</p>
 </div>
-<div id="practice-4-keep-your-guest-list-up-to-date" class="section level3 hasAnchor" number="7.3.4">
-<h3><span class="header-section-number">7.3.4</span> Practice 4: Keep your guest list up to date<a href="keeping-data-safe.html#practice-4-keep-your-guest-list-up-to-date" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>As people transition on and off the project, ensure that access is added– and removed. This is especially important if your data have any sort of sensitivity, but is good practice regardless. When someone leaves– even if you think their account will be deactivated by your central IT– you should still plan to remove their account’s access. (Odds are their account won’t be activated again, but sometimes these old accounts can provide backdoors for bad actors)</p>
+<div id="practice-4-save-data-from-key-steps" class="section level3 hasAnchor" number="7.3.4">
+<h3><span class="header-section-number">7.3.4</span> Practice 4: Save data from key steps<a href="keeping-data-safe.html#practice-4-save-data-from-key-steps" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>As your project progresses, and you create derivatives to run analyses, be sure to keep data files from key steps of your research, without keeping every file. Consider your research project as a pipeline: data are collected, created, or derived from a secondary source; then the data will undergo various transformations, as you clean it, analyze it, and visualize it. You don’t need to keep every piece of data created, but be sure that you retain enough data (and documentation!) to provide enough information on the <a href="https://summermengarelli.github.io/temporal-gaps/annotating-code.html">process</a>. This is useful not only for you and your collaborators, but also for ensuring your work is reusable and reproducible.</p>
 </div>
-<div id="practice-5-ensure-continuity-in-ownership" class="section level3 hasAnchor" number="7.3.5">
-<h3><span class="header-section-number">7.3.5</span> Practice 5: Ensure continuity in ownership<a href="keeping-data-safe.html#practice-5-ensure-continuity-in-ownership" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Lastly, consider the ownership of your materials early into your project (but again, better late than never!).</p>
-<ul>
-<li>If you are working on a team, be thoughtful about who OWNS your data
-<ul>
-<li>For example, if something is stored in your google drive, your account may be deleted. Ways around this (creating in a shared drive, changing ownership)<br />
-</li>
-<li>Some institutions have policies in place that will prevent them from being able to recover your data, even with your approval! So start with the end in mind and make sure it is stored on a team or group owned account</li>
-</ul></li>
-</ul>
+<div id="practice-5-keep-your-guest-list-up-to-date" class="section level3 hasAnchor" number="7.3.5">
+<h3><span class="header-section-number">7.3.5</span> Practice 5: Keep your guest list up to date<a href="keeping-data-safe.html#practice-5-keep-your-guest-list-up-to-date" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>As people transition on and off the project, ensure that access to files, documentation, and servers is added and removed. This is especially important if your data have any sort of sensitivity, but is good practice regardless. When someone leaves the project, even if you think their account will be deactivated by your central IT, you should still plan to remove their account’s access.</p>
 </div>
 </div>
 <div id="exercises-4" class="section level2 hasAnchor" number="7.4">
