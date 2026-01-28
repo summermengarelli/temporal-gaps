@@ -19,11 +19,11 @@ This will quite obviously be tricky if you are not there to speak up– but ther
 
 ### Practice 1: Make an ORCID iD
 
-One of the best – and easiest\! – ways you can start receiving recognition of your work is to make an [ORCID iD](https://orcid.org/). These are free, persistent, and unique identifiers for researchers. In the same way that a digital object identifier (DOI) always references a single output (like an article), your ORCID will always be linked to you as you progress through your career.
+One of the best – and easiest\! – ways you can start receiving recognition of your work is to make an [ORCID iD](https://orcid.org/). These are free, persistent, and unique identifiers for researchers. In the same way that a digital object identifier (DOI) always references a single output (like an article), your ORCID will always be linked to you as you progress through your career. Creating an ORCID generates a persistent profile page for you, which will aggregate and amplify your work as well as disambiguate your research from others globally that might have a similar name.
 
-Once you have an ORCID, you can begin entering this information when prompted, especially through publication platforms. Journals, funding agencies, and other repositories have automated connections with ORCID that will allow your name to be connected to your outputs.
+Once you have an ORCID, you can begin entering this information when prompted, especially through publication platforms. Journals, funding agencies, and other repositories have automated connections with ORCID that will allow your outputs to be automatically connected to your ORCID profile.
 
-As you progress through your career, you can also manually update your ORCID profile page to reflect your professional achievements. This makes it easy for others to see, in one spot, all that you’ve accomplished. This is slightly different from your Google Scholar profile, as your ORCID page can capture not just your publications, but also your professional positions, committee work, and even grants received\!
+If needed, you can also manually update your ORCID profile page to reflect your professional achievements. This makes it easy for others to see, in one spot, all that you’ve accomplished. This is slightly different from your Google Scholar profile, as your ORCID page can capture not just your publications, but also your professional positions, committee work, and even grants received\!
 
 ### Practice 2: Familiarize yourself with CRediT
 
@@ -40,19 +40,15 @@ Document the results of this discussion in project documentation (e.g., the [REA
 
 ### Practice 3: Conceptualize the dataset as a standalone product
 
-Often, datasets are considered the means to the end, the mechanism by which the publication is produced. This understanding is (slowly) changing, as data is becoming understood as a separate and equally important output. 
+Often, datasets are considered the means to the end, the mechanism by which the publication is produced. This understanding is (slowly) changing, as data is becoming understood as a separate and equally important output. Some disciplines are embracing the [data paper](https://www.datacc.org/en/your-needs/highlighting-your-data/publier-un-data-paper-ou-et-comment/), which is an option to highlight the work that went into creating and preparing a dataset. This is a new type of publication that is finding a home in more and more journals and may be appropriate for data that does not have access restrictions (such as sensitive data).
 
-(Idk what else to put here– but something about how data can be used and reused separate from the original intention.)
-
-(Needs to be adapted, but: “Poet Henry David Thoreau’s field notes were used to document that migratory bird arrivals and trees and shrubs budding is occurring earlier in the spring, further evidence of global warming (Primack and Gallinat 2016).”)
+Also remember that data can be used outside of their original contexts!  Poet Henry David Thoreau’s field notes were used by [researchers to document changes in migratory bird patterns](https://www.jstor.org/stable/44808881), providing further evidence of global warming.
 
 ### Practice 4: Advocate for those who preceded you 
 
 If you are the graduate student who is present as the project concludes, review the named contributors. If you know of anyone who worked on the project, in any of the roles articulated in CRediT, advocate for recognition of their labor.  This is a key way to help shape and change behavior that will have an impact beyond your time with the project or lab.
 
-- Not sure if important to add here, but getting at:  
-  - Pay it forward.   
-  - Academia is small– actions of kindness? idk
+Academia is small– and actions of kindness that pay it forward are welcomed and celebrated. Do not be afraid to have the hard conversations, as it can have lasting impacts for those that follow you. 
 
 ### Practice 5: Set boundaries on your involvement
 
@@ -61,10 +57,10 @@ As you near the end of your studies, if it is clear that the project will conclu
 Consider:
 
 - Will you continue to work on the project to see the dataset and/or publication completed? Will you present this work?  
-  - If so, is this something that will be done as part of your new role, or will this require you to volunteer your time?  
-    - If this is something you will need to do outside of your daily work, consider reviewing this flowchart to decide if this is actually something you want to take on:  
-      - Peltzman, S. (2016). Should You Take on a Project?: A Flowchart. Zenodo. [https://doi.org/10.5281/zenodo.4694788](https://doi.org/10.5281/zenodo.4694788)  
-        - Note: This ends by suggesting you CONSIDER taking on the project. That does not mean *DO* take on the project\!  
+- If so, is this something that will be done as part of your new role, or will this require you to volunteer your time?  
+- If this is something you will need to do outside of your daily work, consider reviewing this flowchart to decide if this is actually something you want to take on:  
+ - Peltzman, S. (2016). Should You Take on a Project?: A Flowchart. Zenodo. [https://doi.org/10.5281/zenodo.4694788](https://doi.org/10.5281/zenodo.4694788)  
+   - Note: This ends by suggesting you CONSIDER taking on the project. That does not mean *DO* take on the project\!  
 
 Whatever your decision, be sure this is understood by all parties.
 
@@ -72,12 +68,26 @@ And remember: even if you do not continue with the project, you still contribute
 
 ## Exercise
 
-- Elevator pitch  
-  - Write out your talking points.   
-  - Use CReDiT – what role(s) did you fill? Are there others who preceded you that should have their contributions captured?  
-  - Are you referring to the data as a standalone product?
+Choose your own adventure! Select the exercise that feels right for you today – you can always come back to the other in the future.
+
+### Elevator Pitch
+A tried and true tool, an elevator pitch is a concise summary of who you are, what you are researching, and how cool that is. As a graduate student, you may have the opportunity to attend conferences and brag about your work, so be ready!
+- Spend five minutes to free write. Don’t worry about editing: focus on getting thoughts on a page.
+- Use CReDiT – what role(s) did you fill? 
+- What is ONE (just one\!) takeaway from your research?
+- Quick! Are you referring to the data as a standalone product?
+
+As you continue in your education, revisit this, and keep it up to date.You may eventually have multiple versions you can draw from.
+
+### Data Paper Brainstorming
+Let’s pretend you’re getting ready to publish your dataset, and want to publish a data paper to go alongside it. Great choice\!
+- Spend five minutes pulling up every piece of documentation you have about the dataset.
+- Spend another five minutes free writing. Focus on getting an outline in place, and highlight one or two key points.
+- Now spend 15 minutes pulling in information from your various forms of documentation. Notice how much you wrote in less than half an hour!
+  - Bonus! Are there sections of your paper that are missing information? Make a note if you need to update your documentation!
+
 
 ## Further Readings
 
-[Under construction]
-- A student collaborators’ bill of rights: [https://humtech.ucla.edu/news/a-student-collaborators-bill-of-rights/](https://humtech.ucla.edu/news/a-student-collaborators-bill-of-rights/) 
+- [Ten Simple Rules for the Care and Feeding of Scientific Data](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003542#s1): These are some steps that anyone can take, throughout the research project, to ensure your data are ready for sharing and capture the work of everyone involved.
+

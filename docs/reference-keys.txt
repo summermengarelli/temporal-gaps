@@ -64,4 +64,6 @@ practice-3-conceptualize-the-dataset-as-a-standalone-product
 practice-4-advocate-for-those-who-preceded-you
 practice-5-set-boundaries-on-your-involvement
 exercise
+elevator-pitch
+data-paper-brainstorming
 further-readings-5

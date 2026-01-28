@@ -8,12 +8,11 @@ Understand and, when possible, implement safeguards to prevent unauthorized or a
 
 An important caveat: sensitive data (including that derived from human participants, about sensitive species or locations, or otherwise protected information) necessitates additional data safety and security measures that will not be covered in this guide.
 
-
 ## Key Terms
 
-- **Cloud-based Storage:** A system that lets you save, access, and share your research files securely over the internet from any device, rather than storing them solely on your local computer or external drive. Google Drive and Box are two examples of cloud-based storage– but these storage providers still have physical locations and servers. 
-- **On-premises Storage:** A system where your research files are saved on physical servers and hardware maintained locally by your institution, accessible only through your campus network or VPN rather than directly over the internet.
-- **Authoritative Version:** The official copy of a file or dataset that serves as the definitive reference point for your research, ensuring everyone works from the same version.
+-   **Cloud-based Storage:** A system that lets you save, access, and share your research files securely over the internet from any device, rather than storing them solely on your local computer or external drive. Google Drive and Box are two examples of cloud-based storage– but these storage providers still have physical locations and servers.
+-   **On-premises Storage:** A system where your research files are saved on physical servers and hardware maintained locally by your institution, accessible only through your campus network or VPN rather than directly over the internet.
+-   **Authoritative Version:** The official copy of a file or dataset that serves as the definitive reference point for your research, ensuring everyone works from the same version.
 
 ## Lesson
 
@@ -27,20 +26,17 @@ To the extent you have control over the project data–or at least your data wit
 
 Each research lab, center, department, etc. will have access to different types of storage, which will depend on your institution. It's common for there to be institutional support for cloud-based storage. All storage solutions have options for group accounts – meaning multiple users will have access to the storage. In Google, this looks like a Shared Google Drive (NOT a shared Folder); in Microsoft, this is storage managed through a Teams Shared Drive. While the exact terminology may vary, it is imperative that you contribute your data to the shared or group storage instead of your personal Drive, OneDrive, or computer storage. In particular, when you leave the institution, this will ensure your data remain managed by the lab, center, department, etc.
 
-
 ### Practice 2: Remember 3-2-1
 
-This best practice suggests that, to avoid data loss or corruption, you should save 3 copies of important files in 2 locations with 1 copy stored remotely (e.g., a cloud storage system, such as Google Drive). This can be challenging, especially when working on a team that is actively updating data files. But don’t be daunted\! A relatively straightforward way to implement this is to ensure that you have periodic (e.g., weekly, monthly) backups in place. These can be implemented in an automatic fashion so you don’t have to worry about it. 
+This best practice suggests that, to avoid data loss or corruption, you should save 3 copies of important files in 2 locations with 1 copy stored remotely (e.g., a cloud storage system, such as Google Drive). This can be challenging, especially when working on a team that is actively updating data files. But don’t be daunted! A relatively straightforward way to implement this is to ensure that you have periodic (e.g., weekly, monthly) backups in place. These can be implemented in an automatic fashion so you don’t have to worry about it.
 
 Regardless of the means you use to implement backups, it is important these are documented and understood so you always know where the authoritative version of the working files lives. This can be accomplished through a [robust folder organization and file naming system](https://summermengarelli.github.io/temporal-gaps/navigating-and-organizing-files.html#a-recommended-approach-to-project-organization). Getting into the habit of adding the current date to the beginning of file names can both help you sort files and help you keep track of the most recent and working version, the raw copies, etc.
-
 
 ### Practice 3: Only edit raw data when necessary
 
 After the data collection phase, consider carefully when, if at all, you need to be using the raw and original data (i.e., that which you created or received). Sometimes data cannot be recreated: a weather condition on a certain day a week ago; voter perceptions before an election; health data from a wearable device immediately after a major surgery. You will never be able to get that data back–so if you accidentally delete something or change a value, you could have just irrevocably altered your data.
 
-So, when you are conducting analyses, running scripts, using R to mutate, using Excel formulas, etc, make a derivative (copy) of the data for analysis. As with above, though, be sure that you understand and have clearly labeled (such as through file names) which version(s) of the files you are working with. 
-
+So, when you are conducting analyses, running scripts, using R to mutate, using Excel formulas, etc, make a derivative (copy) of the data for analysis. As with above, though, be sure that you understand and have clearly labeled (such as through file names) which version(s) of the files you are working with.
 
 ### Practice 4: Save data from key steps
 
@@ -50,9 +46,15 @@ As your project progresses, and you create derivatives to run analyses, be sure 
 
 As people transition on and off the project, ensure that access to files, documentation, and servers is added and removed. This is especially important if your data have any sort of sensitivity, but is good practice regardless. When someone leaves the project, even if you think their account will be deactivated by your central IT, you should still plan to remove their account’s access.
 
-
 ## Exercises
+
+Spend a few minutes reviewing the storage for your files. If you / your department / your lab use cloud storage (e.g., Google Drive, One Drive, Box), look over who has access to the files. Do you know everyone on the access list? If you are using local storage (managed by your institution), do you know how often your data are backed up? Do you know if the storage you are using has retention limits that might result in your data being deleted?
+
+Regardless of the storage you are using, consider the documentation for your project. Is it clear what the authoritative version of the files is?
+
+This is also a good time to get to know your IT personnel, if you don’t already! They are there to support you - even if it might not always feel like that.
 
 ## Further Readings
 
-- 
+-   [Data Management Security Tips](https://www.jmu.edu/research/integrity-compliance/human-research/irbdatasecurity.shtml?jmu_redir=r_researchintegrity) from James Madison University Office of Research Integrity and Compliance. This resources provides best practices on keeping physical and digital data safe.
+-   If you have specific questions, reach out to you IT support.
