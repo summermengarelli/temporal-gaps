@@ -13,7 +13,7 @@ Learn and adapt data curation strategies to become acclimated to a dataset you�
 - **README:** A document, typically written in Markdown or as plain text, that serves as the front page or abstract of a project’s materials – for example, the source code and data files used in a research project – and conveys information about the purpose, creation, organization, and use of the materials.   
 - **Data Dictionary:** Documentation that accompanies a dataset, listing and defining each variable and providing information on data types, conventions followed, and valid/possible values for each variable.  
 - **Raw data:** Here, data in the state it is in when you generate/access/receive it.  
-- **ORCID iD:** A unique persistent identifier to disambiguate researchers and track research outputs.
+- **ORCID iD:** A unique persistent identifier to disambiguate researchers and track research outputs. (More in ["Advocating for CRediT"](https://summermengarelli.github.io/temporal-gaps/advocating-for-credit.html))
 
 ## Lesson
 
@@ -24,13 +24,13 @@ Data curation, or the tasks by which data is reviewed to ensure it is fit for pu
 - Creating a comprehensive listing of files in the dataset.  
   - If a listing already exists, making sure all files are present.  
 - Reviewing the documentation to ensure variables are defined, methodology is present and clear, and descriptive information is thorough.  
-- If applicable, running code to ensure it works as expected, dependencies are named, and code has clear annotation (link to Annotating Code).
+- If applicable, running code to ensure it works as expected, dependencies are named, and code has [clear annotations](https://summermengarelli.github.io/temporal-gaps/annotating-code.html).
 
 This process often occurs at the end of a research project, when outputs are being published in repositories. However, these practices can be adopted and adapted for finding your way through a new and unfamiliar dataset, since data curation strategies offer standardized yet flexible approaches to understanding a dataset. Below, we offer a general framework, divided into practices.[^1] This process can be used for all data types, across all disciplines.
 
 ### Practice \#1: Check and Understand the documentation and dataset 
 
-First and foremost, get access to the data and documentation. This may seem like a no brainer, but sometimes data can be distributed in multiple locations. Make sure you have access to all of the data and affiliated documentation. Ask your PI, peers, and others in the lab about data and affiliated documentation to make sure you have access to everything. This may require getting access to servers, added to shared drives or networked storage, or even being shown where the physical records are kept. You may even need to follow hyperlinks that lead to other storage folders– that is ok\! This process may take time. Do not rush this step though, as all future steps build from it.
+First and foremost, get access to the data and documentation. This may seem like a no brainer, but sometimes data can be distributed in multiple locations. Make sure you have access to all of the data and affiliated documentation: ask your PI, peers, and others in the lab about data stored on servers, shared drives or networked storage, or even the physical records. You may even need to follow hyperlinks that lead to other storage folders– that is ok\! This process may take time. **Do not rush this step though, as all future steps build from it.**
 
 After that, begin by reviewing the documentation. Look for READMEs, dictionaries, or other overview documentation that will help you learn more about the methodology, expected data files, and the project overall. If this is an ongoing project which has been written about before, and you have not already, consider reading any previous publications or reviewing any publicly available datasets.
 
@@ -53,7 +53,7 @@ TEMPLATE SNIPPET:
 
 —-------------------------------------------
 
-Now, repeat the process with the actual data files. As much as possible, **avoid making copies of the data**, as that will lead to file proliferation. In general, you want to create as few derivatives of key files as reasonably possible to avoid confusion as to which file is the correct version– especially when you are collaborating in a lab. That being said, you will need to take care reviewing the raw data files**,** or the source data collected from instruments or observation from which other data or visualizations will be derived, when possible. Especially as you are getting your bearings in the data, it can be easy to accidentally alter or even delete data, occasionally in an irreversible way. 
+Now, repeat the process with the actual data files. As much as possible, **avoid making copies of the data**, as that will lead to file proliferation. In general, you want to create as few derivatives of key files as reasonably possible to avoid confusion as to which file is the correct version– especially when you are collaborating in a lab. That being said, you will need to take care reviewing the raw data files, or the source data collected from instruments or observation from which other data or visualizations will be derived, when possible. Especially as you are getting your bearings in the data, it can be easy to accidentally alter or even delete data, occasionally in an irreversible way. 
 
 If you feel you absolutely **must** make copies of the data, store the files in a working directory on your local machine (if possible given the size of the data) and remove the files as soon as you have completed your review.
 

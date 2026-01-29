@@ -22,12 +22,11 @@ $$add in lifecycle image from Harvard$$
 
 While the lifecycle image invokes a tidy overview of how research projects generally progress, the reality is often more complex. For example, a project may require iterations of design and data collection before moving to analysis and publication. This can be compounded by changes in disciplinary research practices and policies at institutional, state, and federal levels.
 
-This messy reality of research projects means that there can be **temporal gaps** in research; in other words, for various reasons, projects may start and stop over time. These temporal gaps can be most acutely felt as personnel join and depart projects. Robust data management practices can be invaluable for closing those gaps and easing team members’ transitions in and out of a research project.
+This messy reality of research projects means that there can be **temporal gaps** in research; in other words, for various reasons, projects may start and stop over time. These temporal gaps can be most acutely felt as personnel join and depart projects. However, you can also observe temporabl gaps in your own work, when you may need to shelve projects for weeks or months. Robust data management practices can be invaluable for closing those gaps and easing team members’ transitions in and out of a research project.
 
 In the remainder of this guide, you’ll learn more about different aspects of research data management that will make it easier for you to get acclimated to your lab’s research data, as well as prepare it for your eventual departure from the lab/project (which in turn will make it easier for the next research collaborator!).
 
 ## Further Reading
 
--   [Research lifecycle guide](https://researchdata.princeton.edu/research-lifecycle-guide) (Princeton)\
--   [Research Data Management Workbook](https://caltechlibrary.github.io/RDMworkbook/)\
--   [Data Management and Sharing Activities](https://www.arl.org/resources/realities-of-academic-data-sharing-rads-initiative-public-access-data-management-and-sharing-dms-activities-v3/) (ARL)
+-   [Princeton Data Management Handbook](https://researchdata.princeton.edu/research-lifecycle-guide). This resource was created specifically for researchers at princeton, but provides a comprehensive view of the research lifecyle.\
+-   [Research Data Management Workbook](https://caltechlibrary.github.io/RDMworkbook/). Created for researchers, this workbook is a collection of exercises to help improve data management practices. This is designed for Principal Investigators, but has numerous resources that may be of use.\
