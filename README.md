@@ -1,7 +1,3 @@
-This is a minimal bookdown example. Although you see a few files here, only `index.Rmd` is required. All other files are optional, but `bookdown-minimal.Rproj` can make it much easier to build the book.
+This is the repository for the bookdown project *Grad's Declassified Data Survival Guide* by Summer Mengarelli and Mikala Narlock. The front end of the guide can be find (HERE)[https://summermengarelli.github.io/temporal-gaps/index.html], and can be cited as follows: 
 
-The key is the `site` setting in `index.Rmd`. If you want to build the book in RStudio, just click the `Build Book` button in the `Build` pane, otherwise call the function in R:
-
-```r
-bookdown::render_book('index.Rmd', 'all')
-```
+Mengarelli, S., & Narlock, M. (2025). Grad’s Declassified Data Survival Guide (1.0.0-alpha). Zenodo. (https://doi.org/10.5281/zenodo.16915332)[https://doi.org/10.5281/zenodo.16915332]
