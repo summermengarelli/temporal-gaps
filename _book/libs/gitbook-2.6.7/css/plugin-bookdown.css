@@ -103,3 +103,6 @@ div.proof>*:last-child:after {
 #header .date {
   margin-top: 1.5em;
 }
+.figcaption {
+  text-align: center !important;
+}
