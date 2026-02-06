@@ -18,6 +18,8 @@ All research projects follow a general lifecycle: from planning and design, thro
 
 ![Harvard Biomedical Research Data Lifecycle](./photos/RDM-lifecycle-2tier-v5.png)
 
+\
+
 *Cioffi, M., Goldman, J., & Marchese, S. (2023). Harvard Biomedical Research Data Lifecycle (Version 5). Zenodo. <https://doi.org/10.5281/zenodo.8076168>*
 
 While the lifecycle image invokes a tidy overview of how research projects generally progress, the reality is often more complex. For example, a project may require iterations of design and data collection before moving to analysis and publication. This can be compounded by changes in disciplinary research practices and policies at institutional, state, and federal levels.
