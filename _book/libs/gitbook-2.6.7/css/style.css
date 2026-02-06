@@ -11,7 +11,7 @@
 .book .book-summary ul.summary li a span {display:inline;padding:initial;overflow:visible;cursor:auto;opacity:1;}
 /* show arrow before summary tag as in bootstrap */
 .figcaption {
-  text-align: center;
+  text-align: center !important;
 }
 
 details > summary {display:list-item;cursor:pointer;}
