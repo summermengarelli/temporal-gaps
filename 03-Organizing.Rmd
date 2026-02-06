@@ -95,3 +95,4 @@ Organizing your materials with a logical flow and using clear and consistent nam
 - UC Merced LibGuide on **File and Folder Organization**: [https://library.ucmerced.edu/file-and-folder-organization\#:\~:text=File%20Structures,want%20when%20looking%20up%20files](https://library.ucmerced.edu/file-and-folder-organization#:~:text=File%20Structures,want%20when%20looking%20up%20files)   
 - Briney, Kristin A. (2020, June 2)\. **File Naming Convention Worksheet**. California Institute of Technology. [https://doi.org/10.7907/894q-zr22](https://doi.org/10.7907/894q-zr22). 
 
+[Annotate your code >>>](https://summermengarelli.github.io/temporal-gaps/annotating-code.html) 
