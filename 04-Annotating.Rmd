@@ -26,7 +26,9 @@ These practices will be applicable to your code whether you work in R, MATLAB, P
 
 It’s helpful to **imagine your research code like a book** that someone would read from beginning to end:
 
-> “Programming is best regarded as the process of creating works of literature, which are meant to be read.” [^1] 
+> “Programming is best regarded as the process of creating works of literature, which are meant to be read.” [^04-annotating-1]
+
+[^04-annotating-1]: Donald Knuth, 'Computer Programming as an Art,' *Literate Programming*, (United States: Center for the Study of Language and Information, 1992): ix.
 
 ***Write the title page.***
 
@@ -111,13 +113,11 @@ In sum, implementing these practices to the degree appropriate to your work, and
 ## Further Readings
 
 -   Resources for setting **header templates**:
-    -   Visual Studio Code: <https://code.visualstudio.com/docs/editor/userdefinedsnippets>\
-    -   R Studio: <https://www.rdataguy.com/2019/11/lesson-7-creating-rscript-header_11.html>\
-    -   Stata: <https://randrescastaneda.rbind.io/post/dotemplate/>\
--   Some content derived from: Cooper, T., Janée, G., Maye, K., Ruhs, N., Erickson, S. 2024. Materials for **Code Data Curation** Curriculum. [Data Curation Network GitHub Repository](https://github.com/DataCurationNetwork/curation-curriculum/blob/4ec8bd6de6f04b87b6da6eb4f5207d51c52052b5/Specialized%20Data%20Types/Code/readme.md).\
--   **docstring R package** to replicate docstrings in R: <https://cran.r-project.org/package=docstring>
--   **Global and Local Variables in Python** article: <https://www.geeksforgeeks.org/global-local-variables-python/>
+    -   Visual Studio Code: <https://code.visualstudio.com/docs/editor/userdefinedsnippets>
+    -   R Studio: <https://www.rdataguy.com/2019/11/lesson-7-creating-rscript-header_11.html>
+    -   Stata: <https://randrescastaneda.rbind.io/post/dotemplate/>
+-   Some content derived from: Cooper, T., Janée, G., Maye, K., Ruhs, N., Erickson, S. 2024. Materials for **Code Data Curation** Curriculum. [Data Curation Network GitHub Repository](https://github.com/DataCurationNetwork/curation-curriculum/blob/4ec8bd6de6f04b87b6da6eb4f5207d51c52052b5/Specialized%20Data%20Types/Code/readme.md).
+-   [TADA! Simple guidelines to improve analytical code sharing for transparency and reproducibility](https://ecoevorxiv.org/repository/view/9806/) is an excellent preprint article on code sharing guidelines: TADA (Transferable, Available, Documented and Annotated). Ivimey-Cook, E. R., Culina, A., Dimri, S., Grainger, M., Kar, F., Lagisz, M., Moran, N. P., Nakagawa, S., Roche, D. G., Sanchez-Tojar, A., Windecker, S. M., & Pick, J. L. (2025). TADA! Simple guidelines to improve code sharing. <https://ecoevorxiv.org/repository/view/9806/>
+-   [docstring R package](https://cran.r-project.org/package=docstring) to replicate docstrings in R.
 
-[^1]: Donald Knuth, 'Computer Programming as an Art,' *Literate Programming*, (United States: Center for the Study of Language and Information, 1992): ix.
-
-[Document your data >>>](https://summermengarelli.github.io/temporal-gaps/writing-data-documentation.html)
+[Document your data \>\>\>](https://summermengarelli.github.io/temporal-gaps/writing-data-documentation.html)
