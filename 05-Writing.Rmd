@@ -125,7 +125,9 @@ Instrument- or software-specific information:
 
 ```
 
-**Data Descriptions:** For each tabular dataset (i.e., spreadsheet), provide information on its dimensions (how many rows and columns it contains), its standard for recording missing data, definitions of columns, units of measurements, abbreviations, and specialized formats or data standards. This information constitutes a dataset’s **data dictionary**, which is explained in detail below.   **Change Log:** While you would not include this information in a final, archival version of a README, it’s not a bad idea to include a scratchpad area at the end of your active documentation. You can use this space to keep a running log of changes you have made to the project folder structure, new outputs, or other edits. This might also include more onboarding information for future collaborators, like an “here’s where I left off” note, or notes to yourself about information that you still need to fully orient yourself to the project materials.
+**Data Descriptions:** For each tabular dataset (i.e., spreadsheet), provide information on its dimensions (how many rows and columns it contains), its standard for recording missing data, definitions of columns, units of measurements, abbreviations, and specialized formats or data standards. This information constitutes a dataset’s **data dictionary**, which is explained in detail below. \   
+
+**Change Log:** While you would not include this information in a final, archival version of a README, it’s not a bad idea to include a scratchpad area at the end of your active documentation. You can use this space to keep a running log of changes you have made to the project folder structure, new outputs, or other edits. This might also include more onboarding information for future collaborators, like an “here’s where I left off” note, or notes to yourself about information that you still need to fully orient yourself to the project materials.
 
 ```{text}
 
@@ -198,3 +200,5 @@ Another major reason to start data documentation now is that you may not be here
 -   [Create a Data Dictionary exercise](https://caltechlibrary.github.io/RDMworkbook/documentation.html#data-dictionary): From Briney, K. (2023). The Research Data Management Workbook. Caltech Library. <https://doi.org/10.7907/z6czh-7zx60>.
 -   [How to Make a Data Dictionary](https://help.osf.io/article/217-how-to-make-a-data-dictionary): Article from OSF Support on formatting data dictionaries.
 -   [Data Standards](https://resources.data.gov/standards/concepts/): [Data.gov](http://Data.gov) page defining data standards.
+
+[Safely store your data >>>](https://summermengarelli.github.io/temporal-gaps/keeping-data-safe.html)
