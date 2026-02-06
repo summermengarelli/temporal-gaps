@@ -10,7 +10,7 @@ getting-oriented-to-a-dataset
 learning-objective-1
 key-terms-1
 lesson-1
-practice-1-check-and-understand-the-documentation-and-dataset
+practice-1-check-and-understand-the-ocumentation-and-dataset
 practice-2-request-information-and-augment-the-documentation
 practice-3-transform-practices-and-evaluate-regularly
 practice-4-document-your-work

@@ -31,4 +31,4 @@ In the remainder of this guide, you’ll learn more about different aspects of r
 -   [Princeton Data Management Handbook](https://researchdata.princeton.edu/research-lifecycle-guide). This resource was created specifically for researchers at Princeton, but provides a comprehensive view of the research lifecyle.\
 -   [Research Data Management Workbook](https://caltechlibrary.github.io/RDMworkbook/). Created for researchers, this workbook is a collection of exercises to help improve data management practices. This is designed for Principal Investigators, but has numerous resources that may be of use to graduate researchers.\
 
-[Get oriented to your data >>>](https://summermengarelli.github.io/temporal-gaps/situating-yourself-in-the-research-lifecycle.html)  
+[Get oriented to your data >>>](https://summermengarelli.github.io/temporal-gaps/getting-oriented-to-a-dataset.html)  
