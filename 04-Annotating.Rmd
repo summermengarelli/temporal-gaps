@@ -110,12 +110,23 @@ In sum, implementing these practices to the degree appropriate to your work, and
 
 ## Exercises
 
+Complete the following file organization activities with either your own project files or the provided [example dataset](OrganizingAnnotating.zip). (NOTE: clicking the link will download the dataset in a zipped folder called *organizingAnnotating.zip*.)
+
+*If you would like an example of how to complete this exercise, we have applied the lesson to the script* 20240317_DNN_sp4_CS.py [*HERE*](20240317_DNN_sp4_CS.py)*.*
+
+1.  Create and fill out a **header** at the top of your script. Include any relevant metadata, including your name and the names of anyone else who contributed to the script, an email by which you can be reached, when the script was created and why, and any other relevant information.
+2.  Organize your code itself either into logical **sections** within the script, or broken into several different files as makes sense for your project.
+3.  Add sufficient **comments** throughout your program to make it understandable to someone who does not code.
+4.  Add an entry to your **Data Management Log** to note that you annotated/edited/changed your code.
+
+Note: In the course of organizing and annotating your code, you may identify small errors (for example, importing a package twice) or ways that you can improve the script. It’s not a bad idea to use this step to clean up your code, but you can also decide to make notes for yourself to come back to later. Add comments that start with `TODO` near chunks you would like to revisit.
+
 ## Further Readings
 
 -   Resources for setting **header templates**:
-    -   Visual Studio Code: <https://code.visualstudio.com/docs/editor/userdefinedsnippets>
-    -   R Studio: <https://www.rdataguy.com/2019/11/lesson-7-creating-rscript-header_11.html>
-    -   Stata: <https://randrescastaneda.rbind.io/post/dotemplate/>
+    -   [Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+    -   [R Studio](https://www.rdataguy.com/2019/11/lesson-7-creating-rscript-header_11.html)
+    -   [Stata](https://randrescastaneda.rbind.io/post/dotemplate/)
 -   Some content derived from: Cooper, T., Janée, G., Maye, K., Ruhs, N., Erickson, S. 2024. Materials for **Code Data Curation** Curriculum. [Data Curation Network GitHub Repository](https://github.com/DataCurationNetwork/curation-curriculum/blob/4ec8bd6de6f04b87b6da6eb4f5207d51c52052b5/Specialized%20Data%20Types/Code/readme.md).
 -   [TADA! Simple guidelines to improve analytical code sharing for transparency and reproducibility](https://ecoevorxiv.org/repository/view/9806/) is an excellent preprint article on code sharing guidelines: TADA (Transferable, Available, Documented and Annotated). Ivimey-Cook, E. R., Culina, A., Dimri, S., Grainger, M., Kar, F., Lagisz, M., Moran, N. P., Nakagawa, S., Roche, D. G., Sanchez-Tojar, A., Windecker, S. M., & Pick, J. L. (2025). TADA! Simple guidelines to improve code sharing. <https://ecoevorxiv.org/repository/view/9806/>
 -   [docstring R package](https://cran.r-project.org/package=docstring) to replicate docstrings in R.
