@@ -175,11 +175,13 @@ As you progress in your career, remember: **You are the first curator of your da
 
 ## Exercises
 
-For this exercise, use either a dataset you have (bonus if it is at least 6 months since you last touched it!) or the [practice dataset provided](original_data.zip) (NOTE: clicking the link will download the dataset in a zipped folder called *original_data.zip*). With the Review Log Template, curate the dataset.
+For this exercise, use either a dataset you have (bonus if it is at least 6 months since you last touched it!) or the [practice dataset provided](original_data.zip) (NOTE: clicking the link will download the dataset in a zipped folder called *original_data.zip*). With the [Review Log Template](ReviewLogTemplate.docx), curate the dataset.
 
 Consider:\
 - Do you think all of the files are present? Are there any duplicate files? Why or why not?\
 - Is there any information about the dataset you’re missing entirely? Is there any information that you can infer based on the dataset as a whole?
+
+*Want to check your work? Click [HERE](OrientingOrganizing.zip) to download an updated version of the practice dataset, which we have curated following the steps in this lesson.*
 
 ## Further Readings
 
