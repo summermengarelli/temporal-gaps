@@ -8,129 +8,145 @@ Learn to write README-style documentation and data dictionaries for an ongoing r
 
 ## Key Terms
 
-- **Data Dictionary:** Documentation that accompanies a dataset, listing and defining each variable and providing information on data types, conventions followed, and valid/possible values for each variable.  
-- **Data Standard:** An agreed-upon, technical specification for how data should be formatted.  
-- **Metadata:** Literally, data about data. In this case, information about a dataset, usually including its creators and funders, structure and dimensions, dates of creation and alteration, collection methodology, and reuse permissions and requirements.  
-- **README:** A document, typically written in Markdown or as plain text, that serves as the front page or abstract of a project’s materials – for example, the source code and data files used in a research project – and conveys information about the purpose, creation, organization, and use of the materials.  
-- **Variable:** Here, a column in a dataset.
+-   **Data Dictionary:** Documentation that accompanies a dataset, listing and defining each variable and providing information on data types, conventions followed, and valid/possible values for each variable.\
+-   **Data Standard:** An agreed-upon, technical specification for how data should be formatted.\
+-   **Metadata:** Literally, data about data. In this case, information about a dataset, usually including its creators and funders, structure and dimensions, dates of creation and alteration, collection methodology, and reuse permissions and requirements.\
+-   **README:** A document, typically written in Markdown or as plain text, that serves as the front page or abstract of a project’s materials–for example, the source code and data files used in a research project–and conveys information about the purpose, creation, organization, and use of the materials.\
+-   **Variable:** Here, a column in a dataset.
 
 ## Lesson
 
-Imagine your supervisor emails you a zipped folder, telling you that it contains all the raw data files from the two doctoral researchers who worked on this project before you joined the lab. You download and unzip the folder, and inside find two subfolders, one named for each past student, both containing versions of the same project materials. The first student’s folder contains dozens of data files, some of which share almost identical – and identically uninformative – filenames. You open one of the files and realize that the measurements were taken with an instrument that your lab doesn’t own: this must be data shared from some other lab, but there is no information about where it came from or how it was collected. 
+Imagine your supervisor emails you a zipped folder, telling you that it contains all the raw data files from the two doctoral researchers who worked on this project before you joined the lab. You download and unzip the folder, and inside find two subfolders, one named for each past student, both containing versions of the same project materials. The first student’s folder contains dozens of data files, some of which share almost identical–and identically uninformative–filenames. You open one of the files and realize that the measurements were taken with an instrument that your lab doesn’t own: this must be data shared from some other lab, but there is no information about where it came from or how it was collected.
 
-You can tell that orienting yourself to this data will take a long time, and you’re not sure you will have all the answers you need after digging through the folder’s contents. Before resigning yourself to this fate, you check the second student’s folder. You are surprised and delighted to find that the main level of this folder contains a single file, called README.txt, and several subfolders named intuitively after the datasets they contain. Each subfolder includes a data dictionary for its data files. Opening one, you find all the metadata you needed to know about the secondary data – the protocol the researchers followed, the definition of each variable and more. The main-level README lists all the contents of the subfolders, provides dates and descriptions of when and where the datasets were collected and updated, and details the software you will need to visualize the data. 
+You can tell that [orienting yourself](https://summermengarelli.github.io/temporal-gaps/getting-oriented-to-a-dataset.html) to this data will take a long time, and you’re not sure you will have all the answers you need after digging through the folder’s contents. Before resigning yourself to this fate, you check the second student’s folder. You are surprised and delighted to find that the main level of this folder contains a single file, called README.txt, and several subfolders named intuitively after the datasets they contain. Each subfolder includes a data dictionary for its data files. Opening one, you find all the metadata you needed to know about the secondary data: the protocol the researchers followed, the definition of each variable and more. The README lists all the contents of the subfolders, provides dates and descriptions of when and where the datasets were collected and updated, and details the software you will need to visualize the data.
 
-Which version of the data will you choose to work with? You can probably recognize immediately that the project materials that are organized with documentation will be the more efficient and more accurate way forward. This is exactly the purpose of READMEs – to introduce project materials to a new audience, or in this case, a new lab member. Relatedly, a data dictionary serves to give new users an immediate sense of the structure of a tabular dataset, without even needing to open the data file itself – which is especially helpful in cases where the data is stored in a proprietary format or would require a good deal of computing to explore.
+Which version of the data will you choose to work with? You can probably recognize immediately that the project materials that are organized with documentation will be the more efficient and more accurate way forward. This is exactly the purpose of READMEs: to introduce project materials to a new audience, or in this case, a new lab member. Relatedly, a data dictionary serves to give new users an immediate sense of the structure of a tabular dataset, without even needing to open the data file itself.
 
 ### READMEs
 
-A README is a document, typically a plain text file (.txt) or written in Markdown (.md), that provides metadata about a dataset in a standardized format. While the filename doesn’t *need* to be all capitalized, this is a cultural norm in software development, where the README serves as the front page of a program’s GitHub repository, and the norm seems to have stuck around in research data management, too. Below, we introduce the typical headings of a README and some recommendations for filling them out.
+A **README** is a document, typically a plain text file (.txt) or written in Markdown (.md), that provides metadata about a dataset in a standardized format. While the filename doesn’t *need* to be all capitalized, this is a cultural norm in software development, where the README serves as the front page of a program’s GitHub repository, and the norm seems to have stuck around in research data management, too. Below, we introduce the typical headings of a README and some recommendations for filling them out.
 
-**General Information:** Begin your project-level README with some basic header information: a name for the project; name, affiliation, email address, and ORCID IDs for each collaborator; date range for the project (e.g. funding period); and any other broad information. 
+**General Information:** Begin your project-level README with some basic header information: a name for the project; name, affiliation, email address, and ORCID IDs for each collaborator; date range for the project (e.g. funding period); and any other broad information.
 
 For dataset-level README documentation, this section should include more specific information about when the data was collected, who collected it, and where (as appropriate). If the document is describing secondary data (i.e., your lab did not collect it/does not own it, but you have access to reuse it), this section should provide information about the source (e.g., government agency or organization), date of access/download, and licensing information (see [MIT’s template](https://www.dropbox.com/scl/fi/ij4u7v26s01932pfcd7hr/Template_SECONDARY_DATASET_Readme.txt?rlkey=cmz5u7e2evdb4nytlsmrrllaq&e=2&dl=0) for secondary data sources for more information).
 
-—------------------------------  
+```{text}
+
+---
+TEMPLATE SNIPPET:
+  
+# TITLE OF PROJECT
+
+## GENERAL INFORMATION
+
+### COLLABORATORS
+
+Name:  
+    Role:  
+    ORCID:  
+    Institution:  
+    Email:  
+
+Name:  
+    Role:  
+    ORCID:  
+    Institution:  
+    Email:  
+
+### FUNDING
+
+Funder(s):  
+Funding period:
+```
+
+**File Overview & Folder Structure:** In the following section, provide an overview of the organization of project materials (or, in the case of dataset-level READMEs, an overview of the file(s) that constitute the dataset). This should include a listing of each file, exactly as it is named, with a brief description of what it contains, and should note the file format (e.g., XML, TIFF, CSV, SHP, WAV, JSON). The information for each file should also include its creation date and any date(s) it was altered or updated. If appropriate, structure this section to reflect or capture the project’s folder structure: list files under the folder in which they are contained.
+
+This is also an appropriate section of the README in which to describe any [file naming conventions](https://summermengarelli.github.io/temporal-gaps/navigating-and-organizing-files.html). Since this is a README for active and internal use, you can use this as an opportunity to orient new collaborators to the organization and conventions of the project materials, thus encouraging them to follow and maintain that structure.
+
+```{text}
+
+---
 TEMPLATE SNIPPET:
 
-\# TITLE OF PROJECT
-
-\#\# GENERAL INFORMATION
-
-COLLABORATOR INFORMATION
-
-Name:   
-Role:   
-ORCID:  
-Institution:   
-Email: 
-
-Name:   
-Role:  
-ORCID:  
-Institution:   
-Email: 
-
-PROJECT FUNDING PERIOD:  
-FUNDING:  
-—------------------------------
-
-**File Overview & Folder Structure:** In the following section, provide an overview of the organization of project materials (or, in the case of dataset-level READMEs, an overview of the file(s) that constitute the dataset). This should include a listing of each file, exactly as it is named, with a brief description of what it contains, and should note the file format (e.g., XML, TIFF, CSV, SHP, WAV, JSON). The information for each file should also include its creation date and any date(s) it was altered or updated. If appropriate, structure this section to reflect or capture the project’s folder structure – list files under the folder in which they are contained. 
-
-This is also an appropriate section of the README in which to describe any file naming conventions. Since this is a README for active and internal use, you can use this as an opportunity to orient new collaborators to the organization and conventions of the project materials, thus encouraging them to follow and maintain that structure.
-
-—------------------------------  
-TEMPLATE SNIPPET:
-
-\#\# FILE OVERVIEW
+## FILE OVERVIEW
 
 Directory Name:  
-	File 1:   
-		Description:  
-		Format:  
-		Creation Date:  
-		Update Date(s):  
-	File 2:  
-		Description:  
-		Format:  
-		Creation Date:  
-		Update Date(s):  
-	Subdirectory Name:  
-		File 1:  
-			Description:  
-			Format:  
-			Creation Date:  
-			Update Date(s):  
-		…  
+    File 1:  
+        Description:  
+        Format:  
+        Creation Date:  
+        Update Date(s):  
+
+    File 2:  
+        Description:  
+        Format:  
+        Creation Date:  
+        Update Date(s):  
+
+    Subdirectory Name:  
+        File 1:  
+            Description:  
+            Format:  
+            Creation Date:  
+            Update Date(s):  
+...
+
 Directory Name:  
-	File 1:  
-		Description:  
-		Format:  
-		Creation Date:  
-		Update Date(s):  
-	…  
-…
+    File 1:  
+        Description:  
+        Format:  
+        Creation Date:  
+        Update Date(s):  
 
-FILE NAMING CONVENTIONS
+...
 
-—------------------------------
+### FILE NAMING CONVENTIONS
+
+---
+  
+```
 
 **Methodology & Access Information:** As appropriate to your project, provide a description of the protocols used to generate/collect the data. This can also include a description of the methods used to clean/process data, as well as a list of software and dependencies needed to view/interpret/process/visualize data. Other relevant information might include requirements for conditions or calibration and quality assurance procedures. As this is an in-use version of a README, you can also use this section to provide more detailed instructions to future collaborators.
 
-—------------------------------  
+```{text}
+
+---
 TEMPLATE SNIPPET:
 
-\#\# METHODOLOGY & ACCESS INFORMATION
+## METHODOLOGY & ACCESS INFORMATION
 
-DESCRIPTION OF COLLECTION METHODS:
+Description of collection methods:
 
-DESCRIPTION OF PROCESSING:
+Description of processing:
 
-INSTRUMENT- OR SOFTWARE-SPECIFIC INFORMATION:
+Instrument- or software-specific information:
 
-INSTRUCTIONS:
+---
 
-—------------------------------
+```
 
-**Data Descriptions:** For each dataset, provide information on its dimensions (how many rows and columns it contains), its standard for recording missing data, definitions of columns, units of measurements, abbreviations, and specialized formats or data standards. This information constitutes a dataset’s *data dictionary*, which is explained in detail below.  
-**Change Log:** While you would not include this information in a final, archival version of a README, it’s not a bad idea to include a scratchpad area at the end of your active documentation. You can use this space to keep a running log of changes you have made to the project folder structure, new outputs, or other edits. This might also include more onboarding information for future collaborators, like an “here’s where I left off” note, or notes to yourself about information that you still need to fully orient yourself to the project materials. 
+**Data Descriptions:** For each tabular dataset (i.e., spreadsheet), provide information on its dimensions (how many rows and columns it contains), its standard for recording missing data, definitions of columns, units of measurements, abbreviations, and specialized formats or data standards. This information constitutes a dataset’s **data dictionary**, which is explained in detail below.   **Change Log:** While you would not include this information in a final, archival version of a README, it’s not a bad idea to include a scratchpad area at the end of your active documentation. You can use this space to keep a running log of changes you have made to the project folder structure, new outputs, or other edits. This might also include more onboarding information for future collaborators, like an “here’s where I left off” note, or notes to yourself about information that you still need to fully orient yourself to the project materials.
 
-—------------------------------  
+```{text}
+
+---
 TEMPLATE SNIPPET:
 
-\#\# CHANGE LOG
+## CHANGE LOG
 
-CHANGES:
+Changes:
 
-SCRATCHPAD:
+Scratchpad:
 
-—------------------------------
+---
+
+```
 
 ### Data Dictionaries
 
-Whereas you can think of a README as a project-level form of documentation, data dictionaries serve the same purpose at the dataset level for tabular data. Strictly speaking, the dictionary only defines a dataset’s structure, conventions, and standards: how many columns (or *variables*), the data type of each column (for example, an integer or boolean), acceptable values (e.g., “Yes” but not “yes” or “Y”), and standards (date formatting, geographic abbreviations). This information can easily be conveyed in a table. It may be more useful, though, to think of these dataset-level documents as mini-READMEs that *contain* data dictionaries (another term for this is a *codebook)*. Before the table describing the contents of the dataset, you can include some of the same information that’s in the project-level README, like dates of creation and modification, people involved, and collection protocols, specific to the dataset you’re describing.
+Whereas you can think of a README as a project-level form of documentation, data dictionaries serve the same purpose at the dataset level for tabular data. Strictly speaking, the dictionary only defines a dataset’s structure, conventions, and standards: how many columns (or **variables**), the data type of each column (for example, an integer or boolean), acceptable values (e.g., “Yes” but not “yes” or “Y”), and standards (date formatting, geographic abbreviations). This information can easily be conveyed in a table. It may be more useful, though, to think of these dataset-level documents as mini-READMEs that *contain* data dictionaries (another term for this is a *codebook*). Before the table describing the contents of the dataset, you can include some of the same information that’s in the project-level README, like dates of creation and modification, people involved, and collection protocols, specific to the dataset you’re describing.
 
-Ideally, you will accompany each tabular dataset in your project with a data dictionary. Even more ideal would be to follow a standard template for every data dictionary, so that you know exactly where to look to determine, for example, when each dataset was created. These dictionaries can also be copied into the project-level README so that information is available at both levels. For the README-like metadata at the beginning of each data dictionary, we suggest including the following headers, described above: General Information, Methodology, and Edit Log. Below we detail how to create the dictionary itself, formatted as a table, although it is also common and reasonable to write a dictionary as a plain text document.
+Ideally, you will accompany each tabular dataset in your project with a data dictionary. Even more ideal would be to follow a standard template for every data dictionary, so that you know exactly where to look to determine, for example, when each dataset was created. For the README-like **metadata** at the beginning of each data dictionary, we suggest including the following headers, described above: General Information, Methodology, and Edit Log. Below we detail how to create the dictionary itself, formatted as a table, although it is also common and reasonable to write a dictionary as a plain text document.
 
 **Dimensions:** Above your data dictionary table, include a simple annotation of the number of observations (rows) and variables (columns), formatted as \# rows x \# columns. For example, for a dataset with 350,000 rows and 16 variables, this section will look like this:
 
@@ -138,51 +154,47 @@ Dimensions: 350000 x 16
 
 (Or, you can describe this in more detail, but stick to the same format for every dataset.)
 
-**Missing Values:** Also above the data dictionary table, include an indication of how missing data is captured in this dataset. For example, does the data include “NA”s, “Null”s, empty cells, dummy values, or some other symbol or phrase? Are multiple methods used to indicate missing data? Indicate this here. 
+**Missing Values:** Also above the data dictionary table, include an indication of how missing data is captured in this dataset. For example, does the data include “NA”s, “Null”s, empty cells, dummy values, or some other symbol or phrase? Are multiple methods used to indicate missing data? Indicate this here.
 
-**Variable:** The first column in your data dictionary table should list the name of every variable in the dataset, spelled and capitalized *exactly* how they appear in the dataset. This is crucial for a reader to be able to quickly map the information in the data dictionary to the dataset it’s describing. For the dataset we describe in the “Dimensions” section above, this dictionary should have 16 rows, one for each of the 16 variables. 
+**Variable:** The first column in your data dictionary table should list the name of every variable in the dataset, spelled and capitalized *exactly* how they appear in the dataset. This is crucial for a reader to be able to quickly map the information in the data dictionary to the dataset it’s describing. For the dataset we describe in the “Dimensions” section above, this dictionary should have 16 rows, one for each of the 16 variables.
 
 **Variable Name:** The next column should provide a human-readable version of each variable name, as needed. For example, if the real variable name in the dataset is “wght,” this column could say “weight,” clarifying what the variable name means. You can think of this column as showing how each variable name would be styled in the labels of a graph or figure.
 
-**Units:** The third column in your data dictionary should simply record the unit of measurement for each variable. For example, if the variable contains weight, this column will clarify if the weight is measured in grams, pounds, or something else (for plenty of columns, like text columns, this will be N/A). 
+**Units:** The third column in your data dictionary should simply record the unit of measurement for each variable. For example, if the variable contains weight, this column will clarify if the weight is measured in grams, pounds, or something else (for plenty of columns, like text columns, this will be N/A).
 
-**Data Type:** This column should record what *kind* of data is contained in each column. Some possible options might include numeric or integer, character or text, float or decimal, boolean (0/1, Y/N), or date data types. 
+**Data Type:** This column should record what *kind* of data is contained in each column. Some possible options might include numeric or integer, character or text, float or decimal, boolean (0/1, Y/N), or date data types.
 
-NOTE: This assumes all the data in a given column is formatted uniformly. Although this is ideal, in real research, this is often not the case. For example, participants in a survey might give their age as “26” or “twenty-six,” resulting in a “age” variable that looks like both an integer and a text data type. If this is data you inherited, you may or may not have the opportunity or ability to standardize the data; for now, use the Data Type column in your data dictionary to record all the data types present in a given column of the data.
+NOTE: This assumes all the data in a given column is formatted uniformly. Although this is ideal, in real research, this is often not the case. For example, participants in a survey might give their age as “26” or “twenty-six,” resulting in an “age” variable that looks like both an integer and a text data type. If this is data you inherited, you may or may not have the opportunity or ability to standardize the data; for now, use the Data Type column in your data dictionary to record all the data types present in a given column of the data.
 
-**Values:** The next column should note the acceptable values, or range of values, for each variable. For numeric or date data, this should include the minimum and maximum values included in the column, so you might need to perform some quick exploratory data analysis on the data to get this information (this might be as simple as sorting the data in a spreadsheet software – but be sure to sort the *entire* spreadsheet, not only one column\!). 
+**Values:** The next column should note the acceptable values, or range of values, for each variable. For numeric or date data, this could include the minimum and maximum values included in the column, so you might need to perform some quick exploratory data analysis on the data to get this information (this might be as simple as sorting the data in a spreadsheet software–but be sure to sort the *entire* spreadsheet, not only one column!).
 
-For boolean values, you might use this column to be explicit about what the values mean, if you know it: is 0 a stand-in for “no,” “absent,” or something else? If the column is a text data type and contains only a finite number of possible values, they should be listed or described here. Examples of this might include a “state” column, where the values could be noted here as “2-letter abbreviations of the 50 U.S. states,” or a “life stage” column that only contains the values listed here: “Juvenile, Immature, Adult”.
+For boolean values, you might use this column to be explicit about what the values mean, if you know it: is 0 a stand-in for “no,” “absent,” or something else? If the column is a text data type and contains only a finite number of possible values, they should be listed or described here. Examples of this might include a “state” column, where the values could be noted here as “2-letter abbreviations of the 50 U.S. states,” or a “life stage” column that only contains the values listed here: “Juvenile, Immature, Adult.”
 
-**Standard:** This column lists any data standards used in the described variable. A data standard is an agreed-upon specification for how data should be formatted – by agreed-upon, we mean that some organizing body, like the Library of Congress, has established the standard, or that it is a commonly accepted convention within your discipline. In many cases this looks like a *controlled vocabulary* of acceptable values. For example, the Getty Research Institute Vocabularies provide standardized stylings to record or describe geographic names and cultural objects. A standard could also specify how data should be formatted, like the [International Organization for Standardization (ISO) 8601](https://www.iso.org/iso-8601-date-and-time-format.html) date and time standard, which specifies that date should be formatted uniformly as YYYY-MM-DD. 
+**Standard:** This column lists any data standards used in the described variable. A data standard is an agreed-upon specification for how data should be formatted. By agreed-upon, we mean that some organizing body, like the Library of Congress, has established the standard, or that it is a commonly accepted convention within your discipline. In many cases this looks like a *controlled vocabulary* of acceptable values. For example, the Getty Research Institute Vocabularies provide standardized stylings to record or describe geographic names and cultural objects. A standard could also specify how data should be formatted, like the [International Organization for Standardization (ISO) 8601](https://www.iso.org/iso-8601-date-and-time-format.html) date and time standard, which specifies that dates should be formatted uniformly as YYYY-MM-DD.
 
-As in the value of data types, it is outside of your control whether data you inherited was formatted following data standards, and it may very well be outside of your control whether it can be transformed to align with the conventions of your discipline – although, it is worth having a conversation about with your supervisor\! Regardless, if you know that a variable in the dataset you’re describing follows a data standard, you can record that information here.
+It is outside of your control whether data you inherited was formatted following data standards, and it may very well be outside of your control whether it can be transformed to align with the conventions of your discipline (although, it may be worth having a conversation about with your supervisor!). Regardless, if you know that a variable in the dataset you’re describing follows a data standard, you can record that information here. (Not sure what standards are used in your field? Reach out to your data or subject area librarian!)
 
-**Description:** The final column of your data dictionary can provide a simple, plain-language description of the described variable. This might look something like “weight in grams” or “participant’s date of birth”.
+**Description:** The final column of your data dictionary can provide a simple, plain-language description of the described variable. This might look something like “weight in grams” or “participant’s date of birth.”
 
 ## Conclusion
 
-READMEs and data dictionaries are typically associated with the end of a project, acting as “what’s inside” guides to accompany data that is ready to be archived or deposited in a repository. So, why bother to do this while you’re still working on the project? 
+READMEs and data dictionaries are typically associated with the end of a project, acting as “what’s inside” guides to accompany data that is ready to be archived or deposited in a repository. So, why bother to do this while you’re still working on the project?
 
 One major benefit to drafting a README early in the project is that a single, short document that keeps track of materials helps you stay organized in the complex and evolving ecosystem of in-progress research. Having one source of truth means that you only need to open one file to find materials you need or quickly answer collaborators’ questions about what a variable name means, when a data file was created, or what a folder contains. Along those same lines, maintaining documentation throughout the project timeline means that nothing is left up to institutional memory, whereas waiting until the end of the project risks omitted details.
 
-Another major reason to start data documentation now is that you may not be here when the project concludes and the data is ready to be archived or shared. It is very common for graduate students to join a project after it has started and graduate before it has ended. If this is the case for you, you will not have the opportunity to ensure that the data is archived with accurate and up-to-date documentation, but you *do* have the opportunity, right now, to ensure that when your work is shared with new collaborators, they have all the information they need. Writing a README now is your chance to write the TL;DR1 of your efforts and contributions to the work, and well-formatted data documentation helps ensure that these best practices continue when you have moved on.
+Another major reason to start data documentation now is that you may not be here when the project concludes and the data is ready to be archived or shared. It is very common for graduate students to join a project after it has started and/or graduate before it has ended. If this is the case for you, you will not have the opportunity to ensure that the data is archived with accurate and up-to-date documentation, but you *do* have the opportunity, right now, to ensure that when your work is shared with new collaborators, they have all the information they need. Writing a README now is your chance to write the TL;DR[^05-writing-1] of your efforts and contributions to the work, and well-formatted data documentation helps ensure that these best practices continue when you have moved on.
 
-1 Too Long; Didn’t Read.
+[^05-writing-1]: Too Long; Didn’t Read.
 
 ## Exercises
 
-- Provide an empty spreadsheet for a data dictionary and have them fill it out for 1 of the tabular datasets
-
 ## Further Readings
 
-- [https://data.research.cornell.edu/data-management/sharing/readme/](https://data.research.cornell.edu/data-management/sharing/readme/)   
-- [https://georgiasouthern.libguides.com/c.php?g=833713\&p=5953142](https://georgiasouthern.libguides.com/c.php?g=833713&p=5953142)   
-- [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)   
-- [https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files](https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files)   
-- MIT template for README for secondary data: [https://www.dropbox.com/scl/fi/ij4u7v26s01932pfcd7hr/Template\_SECONDARY\_DATASET\_Readme.txt?rlkey=cmz5u7e2evdb4nytlsmrrllaq\&e=1\&dl=0](https://www.dropbox.com/scl/fi/ij4u7v26s01932pfcd7hr/Template_SECONDARY_DATASET_Readme.txt?rlkey=cmz5u7e2evdb4nytlsmrrllaq&e=1&dl=0)   
-- Harvard RDM LibGuide on data dictionaries: [https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/data-dictionary](https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/data-dictionary)  
-- Briney workbook Create a Data Dictionary exercise: [https://caltechlibrary.github.io/RDMworkbook/documentation.html\#data-dictionary](https://caltechlibrary.github.io/RDMworkbook/documentation.html#data-dictionary)   
-- ICPSR’s “What is a Codebook?”: [https://www.icpsr.umich.edu/web/ICPSR/cms/1983](https://www.icpsr.umich.edu/web/ICPSR/cms/1983)   
-- OSF page How to Make a Data Dictionary: [https://help.osf.io/article/217-how-to-make-a-data-dictionary](https://help.osf.io/article/217-how-to-make-a-data-dictionary)   
-- [Data.gov](http://Data.gov) page on data standards: [https://resources.data.gov/standards/concepts/](https://resources.data.gov/standards/concepts/) 
+-   [Writing READMEs for Research Data](https://data.research.cornell.edu/data-management/sharing/readme/): From Cornell Data Services.
+-   [Georgia Southern University "Writing 'Readme' Style Metadata"](https://georgiasouthern.libguides.com/c.php?g=833713&p=5953142): "Data Management Services" guide from the University Libraries at Georgia Southern University.
+-   [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/): Quick reference for Markdown syntax, which can be helpful in formatting a README.
+-   [MIT template for README for secondary data](https://www.dropbox.com/scl/fi/ij4u7v26s01932pfcd7hr/Template_SECONDARY_DATASET_Readme.txt?rlkey=cmz5u7e2evdb4nytlsmrrllaq&e=1&dl=0): Useful for documenting data that you are reusing and did not create.
+-   [Documentation & Metadata](https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata): Harvard Longwood Research Data Management guide to documentation, including pages on README files and data dictionaries.
+-   [Create a Data Dictionary exercise](https://caltechlibrary.github.io/RDMworkbook/documentation.html#data-dictionary): From Briney, K. (2023). The Research Data Management Workbook. Caltech Library. <https://doi.org/10.7907/z6czh-7zx60>.
+-   [How to Make a Data Dictionary](https://help.osf.io/article/217-how-to-make-a-data-dictionary): Article from OSF Support on formatting data dictionaries.
+-   [Data Standards](https://resources.data.gov/standards/concepts/): [Data.gov](http://Data.gov) page defining data standards.
