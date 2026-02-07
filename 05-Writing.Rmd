@@ -125,7 +125,7 @@ Instrument- or software-specific information:
 
 ```
 
-**Data Descriptions:** For each tabular dataset (i.e., spreadsheet), provide information on its dimensions (how many rows and columns it contains), its standard for recording missing data, definitions of columns, units of measurements, abbreviations, and specialized formats or data standards. This information constitutes a dataset’s **data dictionary**, which is explained in detail below. \   
+**Data Descriptions:** For each tabular dataset (i.e., spreadsheet), provide information on its dimensions (how many rows and columns it contains), its standard for recording missing data, definitions of columns, units of measurements, abbreviations, and specialized formats or data standards. This information constitutes a dataset’s **data dictionary**, which is explained in detail below.  
 
 **Change Log:** While you would not include this information in a final, archival version of a README, it’s not a bad idea to include a scratchpad area at the end of your active documentation. You can use this space to keep a running log of changes you have made to the project folder structure, new outputs, or other edits. This might also include more onboarding information for future collaborators, like an “here’s where I left off” note, or notes to yourself about information that you still need to fully orient yourself to the project materials.
 
@@ -184,11 +184,16 @@ READMEs and data dictionaries are typically associated with the end of a project
 
 One major benefit to drafting a README early in the project is that a single, short document that keeps track of materials helps you stay organized in the complex and evolving ecosystem of in-progress research. Having one source of truth means that you only need to open one file to find materials you need or quickly answer collaborators’ questions about what a variable name means, when a data file was created, or what a folder contains. Along those same lines, maintaining documentation throughout the project timeline means that nothing is left up to institutional memory, whereas waiting until the end of the project risks omitted details.
 
-Another major reason to start data documentation now is that you may not be here when the project concludes and the data is ready to be archived or shared. It is very common for graduate students to join a project after it has started and/or graduate before it has ended. If this is the case for you, you will not have the opportunity to ensure that the data is archived with accurate and up-to-date documentation, but you *do* have the opportunity, right now, to ensure that when your work is shared with new collaborators, they have all the information they need. Writing a README now is your chance to write the TL;DR[^05-writing-1] of your efforts and contributions to the work, and well-formatted data documentation helps ensure that these best practices continue when you have moved on.
+Another major reason to start data documentation now is that you may not be here when the project concludes and the data is ready to be archived or shared. It is very common for graduate students to join a project after it has started and/or graduate before it has ended. If this is the case for you, you will not have the opportunity to ensure that the data is archived with accurate and up-to-date documentation, but you *do* have the opportunity, right now, to ensure that when your work is shared with new collaborators, they have all the information they need. Writing a README now is your chance to record the TL;DR[^05-writing-1] of your efforts and contributions to the work, and well-formatted data documentation helps ensure that these best practices continue when you have moved on.
 
 [^05-writing-1]: Too Long; Didn’t Read.
 
 ## Exercises
+
+Complete the following documentation activities with either your own project files or the provided [example dataset](AnnotatingDocumenting.zip). (NOTE: clicking the links will download the datasets in a zipped folder called *AnnotatingDocumenting.zip*.)
+
+1.  Fill out the [**README template**](README-template.txt) for your project files (for the sample dataset, you can reuse the existing README.txt file for this). We completed this exercise for the sample dataset, and you can view a completed README [HERE](README-completed.txt).
+2.  Create a **data dictionary** for any tabular datasets. We completed this exercise for the sample file *speech_emotions.csv*, and you can view the completed data dictionary [HERE](dataDictionary.pdf).
 
 ## Further Readings
 
@@ -201,4 +206,4 @@ Another major reason to start data documentation now is that you may not be here
 -   [How to Make a Data Dictionary](https://help.osf.io/article/217-how-to-make-a-data-dictionary): Article from OSF Support on formatting data dictionaries.
 -   [Data Standards](https://resources.data.gov/standards/concepts/): [Data.gov](http://Data.gov) page defining data standards.
 
-[Safely store your data >>>](https://summermengarelli.github.io/temporal-gaps/keeping-data-safe.html)
+[Safely store your data \>\>\>](https://summermengarelli.github.io/temporal-gaps/keeping-data-safe.html)
