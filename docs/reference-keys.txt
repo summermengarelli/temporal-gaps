@@ -1,5 +1,6 @@
 introduction
 what-is-this-guide
+contact-us
 how-to-use-this-resource
 situating-yourself-in-the-research-lifecycle
 learning-objective
